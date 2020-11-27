@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from './Footer';
 import Header from './Header';
 import Homepage from './Homepage';
 import About from './homepagelayouts/About';
@@ -46,6 +47,9 @@ class App extends Component {
                 {/* <section>
                     <Testimonials/>
                 </section> */}
+                <section>
+                    <Footer/>
+                </section>
             </>
         );
     }
