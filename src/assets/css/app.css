@@ -9911,6 +9911,11 @@ body {
 
 #header {
   background-color: #ffffff;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  z-index: 1000;
+  top: 0;
 }
 #header nav .logo-img {
   width: 200px;
@@ -9987,6 +9992,7 @@ body {
 
 .movable-header {
   background-color: #ffffff;
+  margin-top: 98px;
 }
 .movable-header .separator-header-sec {
   border-bottom: 1px solid #DBDEDF;
@@ -10026,6 +10032,69 @@ body {
   font-size: 20px;
   font-style: normal;
   line-height: 22px;
+}
+.movable-header .shadowing {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.footer-section {
+  background-color: #343434;
+}
+.footer-section .logo-img {
+  width: 200px;
+}
+.footer-section .company-desc {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+  color: #F4F4FE;
+}
+.footer-section .footer-link-heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.footer-section .footer-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #E1DDDD;
+}
+.footer-section ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+.footer-section .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section .social-media:before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  display: block;
+  border: 1px solid #68696A;
+  border-radius: 50%;
+  position: absolute;
+}
+.footer-section .footer-separator {
+  opacity: 0.3;
+  border: 1px solid #fff;
+}
+.footer-section .rights {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  opacity: 0.6;
 }
 
 .header-bottom-sec .special-medicine-box {

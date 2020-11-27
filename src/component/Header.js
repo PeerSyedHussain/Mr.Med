@@ -92,57 +92,59 @@ class Header extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className='container'>
-                        <div className='user-optionality py-3'>
-                            <div className='options'>
-                                <div className='option-bg bg-1 mr-2'>
-                                    <img
-                                        src={ wellness }
-                                        className="d-inline-block align-top"
-                                        alt="Map pin"
-                                    />
+                    <div className='shadowing'>
+                        <div className='container'>
+                            <div className='user-optionality py-3'>
+                                <div className='options'>
+                                    <div className='option-bg bg-1 mr-2'>
+                                        <img
+                                            src={ wellness }
+                                            className="d-inline-block align-top"
+                                            alt="Map pin"
+                                        />
+                                    </div>
+                                    <div>
+                                        <p className='mb-0 option-heading'>Wellness</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p className='mb-0 option-heading'>Wellness</p>
+                                <div className='options'>
+                                    <div className='option-bg bg-2 mr-2'>
+                                        <img
+                                            src={ spec_medicine }
+                                            className="d-inline-block align-top"
+                                            alt="Map pin"
+                                        />
+                                    </div>
+                                    <div>
+                                        <p className='mb-0 option-heading'>Speciality Medicines</p>
+                                    </div>
+                                </div>
+                                <div className='options'>
+                                    <div className='option-bg bg-3 mr-2'>
+                                        <img
+                                            src={ patient_asst }
+                                            className="d-inline-block align-top"
+                                            alt="Map pin"
+                                        />
+                                    </div>
+                                    <div>
+                                        <p className='mb-0 option-heading'>Patient Assistance Programme</p>
+                                    </div>
+                                </div>
+                                <div className='options'>
+                                    <div className='option-bg bg-4 mr-2'>
+                                        <img
+                                            src={ impo_medi_ }
+                                            className="d-inline-block align-top"
+                                            alt="Map pin"
+                                        />
+                                    </div>
+                                    <div>
+                                        <p className='mb-0 option-heading'>Imported Medicines</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div className='options'>
-                                <div className='option-bg bg-2 mr-2'>
-                                    <img
-                                        src={ spec_medicine }
-                                        className="d-inline-block align-top"
-                                        alt="Map pin"
-                                    />
-                                </div>
-                                <div>
-                                    <p className='mb-0 option-heading'>Speciality Medicines</p>
-                                </div>
-                            </div>
-                            <div className='options'>
-                                <div className='option-bg bg-3 mr-2'>
-                                    <img
-                                        src={ patient_asst }
-                                        className="d-inline-block align-top"
-                                        alt="Map pin"
-                                    />
-                                </div>
-                                <div>
-                                    <p className='mb-0 option-heading'>Patient Assistance Programme</p>
-                                </div>
-                            </div>
-                            <div className='options'>
-                                <div className='option-bg bg-4 mr-2'>
-                                    <img
-                                        src={ impo_medi_ }
-                                        className="d-inline-block align-top"
-                                        alt="Map pin"
-                                    />
-                                </div>
-                                <div>
-                                    <p className='mb-0 option-heading'>Imported Medicines</p>
-                                </div>
-                            </div>
-                        </div>
+                        </div> 
                     </div>                  
                 </section>
             </>
