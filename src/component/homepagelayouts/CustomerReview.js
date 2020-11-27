@@ -13,8 +13,8 @@ function CustomerReview() {
         slidesToScroll: 1,
         accessibility : true,
         arrows : false,
-        // autoplay : true,
-        // autoplaySpeed : 3000,
+        autoplay : true,
+        autoplaySpeed : 3000,
         adaptiveHeight : true
     };
     return (
@@ -58,7 +58,7 @@ function CustomerReview() {
                             <div className='customer-box'>
                                 <div className='customer-pic'>
                                     <img
-                                        src={ Review1 }
+                                        src={ Review2 }
                                         className="d-inline-block align-top w-100"
                                         alt="slider"
                                     />
@@ -84,7 +84,7 @@ function CustomerReview() {
                             <div className='customer-box'>
                                 <div className='customer-pic'>
                                     <img
-                                        src={ Review1 }
+                                        src={ Review3 }
                                         className="d-inline-block align-top w-100"
                                         alt="slider"
                                     />
@@ -136,7 +136,7 @@ function CustomerReview() {
                             <div className='customer-box'>
                                 <div className='customer-pic'>
                                     <img
-                                        src={ Review1 }
+                                        src={ Review2 }
                                         className="d-inline-block align-top w-100"
                                         alt="slider"
                                     />
