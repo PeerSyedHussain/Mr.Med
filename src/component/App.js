@@ -5,11 +5,11 @@ import Homepage from './Homepage';
 import About from './homepagelayouts/About';
 import AssistanceProgram from './homepagelayouts/AssistanceProgram';
 import ChronicDisease from './homepagelayouts/ChronicDisease';
+import CustomerReview from './homepagelayouts/CustomerReview';
 import HealthConcernShop from './homepagelayouts/HealthConcernShop';
 import Imported from './homepagelayouts/Imported';
 import OurService from './homepagelayouts/OurService';
 import Testimonial from './homepagelayouts/Testimonial';
-import Testimonials from './homepagelayouts/Testimonials';
 import WhySection from './homepagelayouts/WhySection';
 
 class App extends Component {
@@ -39,14 +39,14 @@ class App extends Component {
                     <Testimonial/>
                 </section>
                 <section>
+                    <CustomerReview/>
+                </section>
+                <section>
                     <OurService/>
                 </section>
                 <section>
                     <About/>
                 </section>
-                {/* <section>
-                    <Testimonials/>
-                </section> */}
                 <section>
                     <Footer/>
                 </section>
