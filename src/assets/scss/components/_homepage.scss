@@ -1,0 +1,358 @@
+.header-bottom-sec{
+    .special-medicine-box{
+        background: $white;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        // padding: 10px;
+        .heading{            
+            font-size: 24px;
+            line-height: 28px;
+            
+            .main-head{
+                color: $primary-color;
+                text-transform: capitalize;
+                font-style: normal;
+                font-weight: 700;
+            }         
+            .see-more{
+                color : $text-grey;
+            }
+        }
+        .specialities-option{
+            width: 135px;
+            text-align: center;
+            margin :10px 0px;
+            .specialities-pic{
+                width: 80px;
+                height: 80px;
+                background-color: #EBF0F6;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                img{
+                    width: 65%;
+                }
+            }
+        }
+    }
+
+    .order-slider{
+        .slick-dots{
+            bottom: 10px !important;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .usage-comfort-box{
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        background-color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        position: relative;
+        .usagability-pic{
+            z-index: 1;
+        }
+    }
+    .light-bg{
+        background-color: $primary-color;
+        opacity: 0.2;
+        border-radius: 0px 0px 10px 10px;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        width: 100%;
+        height: 50%;
+        z-index: 0;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -ms-border-radius: 0px 0px 10px 10px;
+        -o-border-radius: 0px 0px 10px 10px;
+    }
+}
+
+.health-concern-section,.chronic-disease-section,.why-med-sec,.assistance-program-sec,.imported-sec,.testimonial-section{
+    background-color: $white;
+    .heading{
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 41px;
+        color: $text-grey;   
+        position: relative;
+        .heading-bottom-line{
+            border: 2px solid $primary-color;
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            right: 0;
+            width: 50%;
+        }
+    }
+    .health-concern-slider,.chronic-disease-slider{
+        .healthy-pics{
+            background: #EBFCFB;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;;
+            padding : 10px;
+        }
+        .slick-slide{
+            margin : 0px 10px;
+        }
+        .affected-area{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: $text-grey;
+        }
+        .shop-link{
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 26px;
+            text-transform: capitalize;
+            color: #00757E;
+            &:after{
+                content : '\003E';
+                margin-left: 10px;
+            }
+        }
+        .slick-arrow{
+            background-color: #000;
+            top: -15%;
+            &.slick-prev{
+                left: 90%;
+            }
+            &.slick-next{
+                right: 5%;
+            }
+        }
+        .chronic-box{
+            background: $white;
+            border: 1px solid #727272;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            .chronic-pics{
+                img{
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+.why-med-sec{
+    background-color: $white;
+    .reasons{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        .reason-pic{
+            width:180px;
+        }
+        .heading{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            color: $black;
+        }
+        .reasonable{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #5B4F4F;
+        }
+    }
+}
+
+.assistance-program-sec,.imported-sec{
+    .program-desc,.import-desc{
+        font-size: 22px;
+        line-height:36px;
+        color: $black;
+    }
+    .register-program,.import{
+        background-color: $primary-color;
+        border-radius: 15px    ;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: $white;
+        border: none;
+        &:active,&:hover{
+            border-color: transparent;
+        }
+        &:focus{
+            box-shadow: none !important;
+        }
+    }
+
+    .assistance-box{
+        background: $white;
+        box-shadow: 0px 4px 17px rgba(173, 173, 173, 0.46);
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        height:150px;
+    }
+    .register-intro,.import-reason{
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 41px;
+        color: $black;
+    }
+}
+
+.imported-sec{
+    .import-round{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .import-bg{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &.bg-1{
+                background-color: #7B9BCB;
+            }
+            &.bg-2{
+                background-color: #7BCA9F;
+            }
+            &.bg-3{
+                background-color: #7BCA9F;
+            }
+            &.bg-4{
+                background-color: #A497C9;
+            }
+            .import-pic{
+                width : 60px;
+            }
+        }   
+    }
+}
+
+.about-section{
+    .logo-pic{
+        width:180px;
+    }
+    .company-desc{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 36px;
+        color: #151414;
+    }
+}
+
+.our-services{
+    background-color: $white;
+    .service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .service-pic{
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .count{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 34px;
+            color: $primary-color;
+        }
+        .count-desc{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 35px;
+            color: $black;
+        }
+    }
+}
+
+
+.testimonial-section{
+    .testimonial-slider{
+        .testimonial-box{
+            background: $white;
+            box-shadow: -4px 11px 23px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 90% !important;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            margin : 30px;
+            .client-pic{
+                width : 100px;
+                height: 100px;
+                position: relative;
+                img{
+                    height: 100%;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    border: 5px solid $primary-color;
+                    position: absolute;
+                    left:-20px;
+                    top:-15px;
+                }
+            }
+            .client-name{
+                font-weight: bold;
+                font-size: 26px;
+                line-height: 34px;
+                text-transform: capitalize;
+                color: #424242;
+            }
+            .client-mail-id{
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                text-transform: lowercase;
+                color: #646464;
+            }
+            .client-review{
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 34px;
+                text-transform: uppercase;
+                color: #646464;
+            }
+        }
+       
+    }
+}
