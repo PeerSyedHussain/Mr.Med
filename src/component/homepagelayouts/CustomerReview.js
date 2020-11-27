@@ -9,12 +9,12 @@ function CustomerReview() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 1,
         accessibility : true,
         arrows : false,
-        autoplay : true,
-        autoplaySpeed : 3000,
+        // autoplay : true,
+        // autoplaySpeed : 3000,
         adaptiveHeight : true
     };
     return (
@@ -27,43 +27,139 @@ function CustomerReview() {
                             <span className='heading-bottom-line'></span>
                         </h5>
                     </div>    
-                    <div className='customer-review-slider py-4'>
-                        {/* <div className='row'> */}
-                            <Slider {...settings}>
-                                <div className='customer-box'>
-                                    <div className='customer-pic'>
-                                        <img
-                                            src={ Review1 }
-                                            className="d-inline-block align-top w-100"
-                                            alt="slider"
-                                        />
-                                    </div>
-                                    <div className='px-4'>
-                                        <p>Jay Shahjahan</p>
+                    <div className='customer-review-slider py-5'>
+                        <Slider {...settings}>
+                            <div className='customer-box'>
+                                <div className='customer-pic'>
+                                    <img
+                                        src={ Review1 }
+                                        className="d-inline-block align-top w-100"
+                                        alt="slider"
+                                    />
+                                </div>
+                                <div className='px-4'>
+                                    <p className='customer-name my-1'>Jay Shahjahan</p>
 
-                                        <p>shahjahan@gmail.com</p>
-                                        <div>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                        </div>
-
-                                        <p>
-                                            Veniam reprehenderit enim tempor nisi. 
-                                            Consectetur sunt ullamco velit ex reprehenderit nostrud est officia aute est.
-                                        </p>
+                                    <p className='customer-mail-id '>shahjahan@gmail.com</p>
+                                    <div className='my-1'>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
                                     </div>
-                                </div>                        
-                                <div>
-                                    helo
-                                </div>                        
-                                <div>
-                                    hi
-                                </div> 
-                            </Slider>
-                        {/* </div> */}
+
+                                    <p className='customer-review'>
+                                        Veniam reprehenderit enim tempor nisi. 
+                                        Consectetur sunt ullamco velit ex reprehenderit nostrud est officia aute est.
+                                    </p>
+                                </div>
+                            </div>  
+                            <div className='customer-box'>
+                                <div className='customer-pic'>
+                                    <img
+                                        src={ Review1 }
+                                        className="d-inline-block align-top w-100"
+                                        alt="slider"
+                                    />
+                                </div>
+                                <div className='px-4'>
+                                    <p className='customer-name my-1'>Jay Shahjahan</p>
+
+                                    <p className='customer-mail-id'>shahjahan@gmail.com</p>
+                                    <div className='my-1'>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+
+                                    <p className='customer-review'>
+                                        Veniam reprehenderit enim tempor nisi. 
+                                        Consectetur sunt ullamco velit ex reprehenderit nostrud est officia aute est.
+                                    </p>
+                                </div>
+                            </div>                        
+                            <div className='customer-box'>
+                                <div className='customer-pic'>
+                                    <img
+                                        src={ Review1 }
+                                        className="d-inline-block align-top w-100"
+                                        alt="slider"
+                                    />
+                                </div>
+                                <div className='px-4'>
+                                    <p className='customer-name my-1'>Jay Shahjahan</p>
+
+                                    <p className='customer-mail-id'>shahjahan@gmail.com</p>
+                                    <div className='my-1'>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+
+                                    <p className='customer-review'>
+                                        Veniam reprehenderit enim tempor nisi. 
+                                        Consectetur sunt ullamco velit ex reprehenderit nostrud est officia aute est.
+                                    </p>
+                                </div>
+                            </div>  
+                            <div className='customer-box'>
+                                <div className='customer-pic'>
+                                    <img
+                                        src={ Review1 }
+                                        className="d-inline-block align-top w-100"
+                                        alt="slider"
+                                    />
+                                </div>
+                                <div className='px-4'>
+                                    <p className='customer-name my-1'>Jay Shahjahan</p>
+
+                                    <p className='customer-mail-id'>shahjahan@gmail.com</p>
+                                    <div className='my-1'>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+
+                                    <p className='customer-review'>
+                                        Veniam reprehenderit enim tempor nisi. 
+                                        Consectetur sunt ullamco velit ex reprehenderit nostrud est officia aute est.
+                                    </p>
+                                </div>
+                            </div>  
+                            <div className='customer-box'>
+                                <div className='customer-pic'>
+                                    <img
+                                        src={ Review1 }
+                                        className="d-inline-block align-top w-100"
+                                        alt="slider"
+                                    />
+                                </div>
+                                <div className='px-4'>
+                                    <p className='customer-name my-1'>Jay Shahjahan</p>
+
+                                    <p className='customer-mail-id'>shahjahan@gmail.com</p>
+                                    <div className='my-1'>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+
+                                    <p className='customer-review'>
+                                        Veniam reprehenderit enim tempor nisi. 
+                                        Consectetur sunt ullamco velit ex reprehenderit nostrud est officia aute est.
+                                    </p>
+                                </div>
+                            </div>  
+                        </Slider>
                     </div>
                 </div>  
             </div>   

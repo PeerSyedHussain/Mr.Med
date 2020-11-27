@@ -356,3 +356,49 @@
        
     }
 }
+
+.customer-review-section{
+    .customer-review-slider{
+        .customer-box{
+            background: $white;
+            box-shadow: -4px 11px 11px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 90% !important;
+            margin: 10px 15px;
+            .customer-pic{
+                img{
+                    border-radius: 8px;
+                    -webkit-border-radius: 8px;
+                    -moz-border-radius: 8px;
+                    -ms-border-radius: 8px;
+                    -o-border-radius: 8px;
+                }
+            }
+            .fa-star{
+                &.checked{
+                    color : #FFFF8D;
+                }
+            }
+            font-style: normal;
+            font-weight: normal;
+            text-transform: lowercase;
+            color: #343434;
+
+            .customer-name{
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                text-transform: capitalize;
+            }
+            .customer-mail-id{
+                font-size: 16px;
+                line-height: 22px;
+            }
+            .customer-review{
+                font-size: 25px;
+                line-height: 34px;
+                color: #646464;
+            }
+        }
+    }
+}

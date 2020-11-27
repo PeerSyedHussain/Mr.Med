@@ -7,6 +7,7 @@
  */
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+@import 'font-awesome/css/font-awesome.min.css';
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 :root {
   --blue: #007bff;
@@ -10428,6 +10429,43 @@ body {
   font-size: 25px;
   line-height: 34px;
   text-transform: uppercase;
+  color: #646464;
+}
+
+.customer-review-section .customer-review-slider .customer-box {
+  background: #fff;
+  box-shadow: -4px 11px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 90% !important;
+  margin: 10px 15px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: lowercase;
+  color: #343434;
+}
+.customer-review-section .customer-review-slider .customer-box .customer-pic img {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.customer-review-section .customer-review-slider .customer-box .fa-star.checked {
+  color: #FFFF8D;
+}
+.customer-review-section .customer-review-slider .customer-box .customer-name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+.customer-review-section .customer-review-slider .customer-box .customer-mail-id {
+  font-size: 16px;
+  line-height: 22px;
+}
+.customer-review-section .customer-review-slider .customer-box .customer-review {
+  font-size: 25px;
+  line-height: 34px;
   color: #646464;
 }
 
