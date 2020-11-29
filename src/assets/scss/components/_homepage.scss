@@ -45,6 +45,11 @@
         &:hover{
             cursor: pointer;
         }
+        &.for-mobile-dev{
+            @media(max-width:575px){
+                margin : 14px 0px;
+            }
+        }
     }
 
     .usage-comfort-box{
@@ -58,6 +63,9 @@
         position: relative;
         .usagability-pic{
             z-index: 1;
+        }
+        @media(max-width: 575px){
+            margin : 10px 0px;
         }
     }
     .light-bg{
@@ -75,6 +83,12 @@
         -ms-border-radius: 0px 0px 10px 10px;
         -o-border-radius: 0px 0px 10px 10px;
     }
+    .for-mobile-dev{
+        @media(max-width : 575px){
+            justify-content: center;
+        }
+    }
+
 }
 
 .health-concern-section,.chronic-disease-section,.why-med-sec,.assistance-program-sec,.imported-sec,.testimonial-section,.customer-review-section{
@@ -93,6 +107,9 @@
             right: 0;
             width: 50%;
         }
+        @media(max-width:575px){
+            font-size: 24px;
+        }
     }
     .health-concern-slider,.chronic-disease-slider{
         .healthy-pics{
@@ -103,6 +120,14 @@
         }
         .slick-slide{
             margin : 0px 10px;
+            @media(max-width : 575px){
+                margin : unset;
+            }
+        }
+        .for-mobile-dev{
+            @media(max-width: 575px){
+                margin : 10px 0px;
+            }
         }
         .affected-area{
             font-weight: bold;
@@ -110,6 +135,9 @@
             line-height: 28px;
             text-transform: capitalize;
             color: $text-grey;
+            @media(max-width:575px){
+                font-size: 20px;
+            }
         }
         .shop-link{
             font-weight: bold;
@@ -121,6 +149,9 @@
                 content : '\003E';
                 margin-left: 10px;
             }
+            @media(max-width: 575px){
+                font-size: 16px;
+            }
         }
         .slick-arrow{
             background-color: #000;
@@ -130,6 +161,9 @@
             }
             &.slick-next{
                 right: 5%;
+                @media(max-width:575px){
+                    right : 15%;
+                }
             }
         }
         .chronic-box{
@@ -181,6 +215,9 @@
         font-size: 22px;
         line-height:36px;
         color: $black;
+        @media(max-width: 575px){
+            font-size: 18px;
+        }
     }
     .register-program,.import{
         background-color: $primary-color;
@@ -201,6 +238,9 @@
         &:focus{
             box-shadow: none !important;
         }
+        @media(max-width: 575px){
+            font-size: 16px;
+        }
     }
 
     .assistance-box{
@@ -216,12 +256,19 @@
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
         height:150px;
+        @media(max-width:575px){
+            width : 150px;
+            margin : auto;
+        }
     }
     .register-intro,.import-reason{
         font-weight: bold;
         font-size: 26px;
         line-height: 41px;
         color: $black;
+        @media(max-width:575px){
+            font-size: 18px;
+        }
     }
 }
 
@@ -267,6 +314,9 @@
         font-size: 22px;
         line-height: 36px;
         color: #151414;
+        @media(max-width: 575px){
+            font-size: 18px;
+        }
     }
 }
 
@@ -283,6 +333,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media(max-width: 575px){
+                width : 150px;
+                height : 150px;
+            }
         }
         .count{
             font-style: normal;
@@ -329,6 +383,10 @@
                     position: absolute;
                     left:-20px;
                     top:-15px;
+                    @media(max-width: 575px){
+                        left: -5px;
+                        top : -15px;
+                    }
                 }
             }
             .client-name{
@@ -337,6 +395,9 @@
                 line-height: 34px;
                 text-transform: capitalize;
                 color: #424242;
+                @media(max-width:575px){
+                    font-size: 18px;
+                }
             }
             .client-mail-id{
                 font-weight: normal;
@@ -351,6 +412,12 @@
                 line-height: 34px;
                 text-transform: uppercase;
                 color: #646464;
+                @media(max-width:575px){
+                    font-size: 16px;
+                }
+            }
+            @media(max-width:575px){
+                margin :20px 8px;
             }
         }
        
@@ -389,6 +456,9 @@
                 font-size: 24px;
                 line-height: 32px;
                 text-transform: capitalize;
+                @media(max-width:575px){
+                    font-size: 18px;
+                }
             }
             .customer-mail-id{
                 font-size: 16px;
@@ -398,6 +468,9 @@
                 font-size: 25px;
                 line-height: 34px;
                 color: #646464;
+                @media(max-width:575px){
+                    font-size: 16px;
+                }
             }
         }
     }

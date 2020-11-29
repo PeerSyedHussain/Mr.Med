@@ -12,7 +12,6 @@ import OrderingSection from './homepagelayouts/OrderingSection';
 import accessibilty from './../assets/images/usage/accessibility.png'
 import affordability from './../assets/images/usage/affordability.png'
 import reliability from './../assets/images/usage/reliability.png'
-import HealthConcernShop from './homepagelayouts/HealthConcernShop';
 
 class Homepage extends Component {
     render() {
@@ -29,7 +28,7 @@ class Homepage extends Component {
                                         <p className='mb-0 see-more'>See all</p>
                                     </div>
                                 </div>
-                                <div className='row px-2 py-3'>
+                                <div className='row px-2 py-3 for-mobile-dev'>
                                    <div className='specialities-option'>
                                         <div className='specialities-pic'>
                                             <img
@@ -125,7 +124,7 @@ class Homepage extends Component {
                             </div>
                         </div>
                         <div className='col-md-7'>
-                            <OrderingSection/>
+                            <OrderingSection />
 
                             <div className='row mt-4'>
                                 <div className='col-md-4'>

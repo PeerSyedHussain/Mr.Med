@@ -8,6 +8,10 @@ import wellness from './../assets/images/icons/wellness.png'
 import spec_medicine from './../assets/images/icons/spec_medicine.png'
 import patient_asst from './../assets/images/icons/patient_asst.png'
 import impo_medi_ from './../assets/images/icons/impo_medi.png'
+import Headset from './../assets/images/icons/headset.png'
+import Whatsapp from './../assets/images/icons/whatsapp.png'
+import UserImg from './../assets/images/icons/user.png';
+import Cart from './../assets/images/icons/cart.png'
 
 class Header extends Component {
   
@@ -70,23 +74,54 @@ class Header extends Component {
                             <div className='row justify-content-between align-items-center'>
                                 <div className='row'>
                                         <div>
-                                            <p className='mb-0 text-grey'>EN</p>
+                                            <p className='mb-0 text-grey'>
+                                                EN
+                                                <i class="fa fa-angle-down mx-1"></i>
+                                            </p>
                                         </div>
                                         <div>
-                                            <p className='mb-0 text-grey mx-3'>Need Help ?</p>
+                                            <p className='mb-0 text-grey'>
+                                                <img
+                                                    src={ Headset }
+                                                    className="d-inline-block align-top mx-2"
+                                                    alt="headset"
+                                                />
+                                                Need Help ?                                               
+                                            </p>
                                         </div>
                                 </div>
                                 <div className='row'>
-                                        <div className='mr-3'>
-                                            <p className='mb-0 text-grey'>+91 9090909090</p>
+                                        <div className='mr-2'>
+                                            <p className='mb-0 text-grey d-flex align-items-center'>
+                                                <img
+                                                    src={ Whatsapp }
+                                                    className="d-inline-block align-top mx-2"
+                                                    alt="whatsapp"
+                                                />
+                                                +91 9090909090
+                                            </p>
                                         </div>
                                         <span className='separator-black'></span>
-                                        <div className='mx-3'>
-                                            <p className='mb-0 text-grey'>Login / Sign up</p>
+                                        <div className='mx-2'>
+                                            <p className='mb-0 text-grey'>
+                                                <img
+                                                    src={ UserImg }
+                                                    className="d-inline-block align-top mx-2"
+                                                    alt="user-img"
+                                                />
+                                                Login / Sign up
+                                            </p>
                                         </div>
                                         <span className='separator-black'></span>
-                                        <div className='ml-3'>
-                                            <p className='mb-0 text-grey'>Cart</p>
+                                        <div className='ml-2'>
+                                            <p className='mb-0 text-grey'>
+                                                <img
+                                                    src={ Cart }
+                                                    className="d-inline-block align-top mx-2"
+                                                    alt="cart"
+                                                />
+                                                Cart
+                                            </p>
                                         </div>
                                 </div>
                             </div>

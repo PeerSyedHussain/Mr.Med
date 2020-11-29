@@ -18,7 +18,30 @@ class ChronicDisease extends Component {
             arrows : true,
             autoplay : true,
             autoplaySpeed : 3000,
-            adaptiveHeight : true
+            adaptiveHeight : true,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+            ]
         };
 
         return (
@@ -41,7 +64,7 @@ class ChronicDisease extends Component {
                                             alt="slider"
                                         />
                                     </div>
-                                    <div className='mx-2'>
+                                    <div className='mx-2 for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Diabetics
                                         </p>
@@ -59,7 +82,7 @@ class ChronicDisease extends Component {
                                             alt="slider"
                                         />
                                     </div>              
-                                    <div className='mx-2'>
+                                    <div className='mx-2 for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Cancer
                                         </p>
@@ -76,7 +99,7 @@ class ChronicDisease extends Component {
                                             alt="slider"
                                         />
                                     </div>                                    
-                                     <div className='mx-2'>
+                                     <div className='mx-2 for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Hiv
                                         </p>
@@ -94,7 +117,7 @@ class ChronicDisease extends Component {
                                         />
                                     </div>
                                     
-                                     <div className='mx-2'>
+                                     <div className='mx-2 for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Osteoporosis
                                         </p>
@@ -112,7 +135,7 @@ class ChronicDisease extends Component {
                                         />
                                     </div>
                                    
-                                     <div className='mx-2'>
+                                     <div className='mx-2 for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Cancer
                                         </p>
@@ -130,7 +153,7 @@ class ChronicDisease extends Component {
                                         />
                                     </div>
                                     
-                                     <div className='mx-2'>
+                                     <div className='mx-2 for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Osteoporosis
                                         </p>

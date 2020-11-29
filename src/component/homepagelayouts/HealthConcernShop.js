@@ -17,7 +17,30 @@ class HealthConcernShop extends Component {
             arrows : true,
             autoplay : true,
             autoplaySpeed : 3000,
-            adaptiveHeight : true
+            adaptiveHeight : true,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+            ]
         };
 
         return (
@@ -40,7 +63,7 @@ class HealthConcernShop extends Component {
                                             alt="slider"
                                         />
                                     </div>
-                                    <div>
+                                    <div className='for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Eye Care
                                         </p>
@@ -58,7 +81,7 @@ class HealthConcernShop extends Component {
                                             alt="slider"
                                         />
                                     </div>              
-                                    <div>
+                                    <div className='for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Kidney Care
                                         </p>
@@ -75,14 +98,14 @@ class HealthConcernShop extends Component {
                                             alt="slider"
                                         />
                                     </div>                                    
-                                     <div>
+                                     <di className='for-mobile-dev'v>
                                         <p className='affected-area mb-0'>
                                             Quit Smoking
                                         </p>
                                         <p className='shop-link'>
                                             Shop now
                                         </p>
-                                    </div>
+                                    </di>
                                 </div>                        
                                 <div>
                                     <div className='healthy-pics'>
@@ -93,14 +116,14 @@ class HealthConcernShop extends Component {
                                         />
                                     </div>
                                     
-                                     <div>
+                                     <di className='for-mobile-dev'v>
                                         <p className='affected-area mb-0'>
                                             Stomach Care
                                         </p>
                                         <p className='shop-link'>
                                             Shop now
                                         </p>
-                                    </div>
+                                    </di>
                                 </div>
                                 <div>
                                     <div className='healthy-pics'>
@@ -111,14 +134,14 @@ class HealthConcernShop extends Component {
                                         />
                                     </div>
                                    
-                                     <div>
+                                     <di className='for-mobile-dev'v>
                                         <p className='affected-area mb-0'>
                                             Quit Smoking
                                         </p>
                                         <p className='shop-link'>
                                             Shop now
                                         </p>
-                                    </div>
+                                    </di>
                                 </div>                        
                                 <div>
                                     <div className='healthy-pics'>
@@ -129,14 +152,14 @@ class HealthConcernShop extends Component {
                                         />
                                     </div>
                                     
-                                     <div>
+                                     <di className='for-mobile-dev'v>
                                         <p className='affected-area mb-0'>
                                             Stomach Care
                                         </p>
                                         <p className='shop-link'>
                                             Shop now
                                         </p>
-                                    </div>
+                                    </di>
                                 </div>
                             </Slider>
                         </div>   

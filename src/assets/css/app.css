@@ -9946,6 +9946,11 @@ body {
 #header nav .upload-btn:focus {
   box-shadow: none;
 }
+@media (max-width: 575px) {
+  #header nav .upload-btn {
+    font-size: 16px;
+  }
+}
 #header nav .basic-details {
   display: flex;
   align-items: center;
@@ -10003,6 +10008,11 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 575px) {
+  .movable-header .user-optionality {
+    display: unset;
+  }
+}
 .movable-header .options {
   display: flex;
   align-items: center;
@@ -10033,6 +10043,16 @@ body {
   font-size: 20px;
   font-style: normal;
   line-height: 22px;
+}
+@media (max-width: 575px) {
+  .movable-header .options .option-heading {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .movable-header .options {
+    padding: 10px 0px 10px 0px;
+  }
 }
 .movable-header .shadowing {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
@@ -10140,6 +10160,11 @@ body {
 .header-bottom-sec .order-slider:hover {
   cursor: pointer;
 }
+@media (max-width: 575px) {
+  .header-bottom-sec .order-slider.for-mobile-dev {
+    margin: 14px 0px;
+  }
+}
 .header-bottom-sec .usage-comfort-box {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -10152,6 +10177,11 @@ body {
 }
 .header-bottom-sec .usage-comfort-box .usagability-pic {
   z-index: 1;
+}
+@media (max-width: 575px) {
+  .header-bottom-sec .usage-comfort-box {
+    margin: 10px 0px;
+  }
 }
 .header-bottom-sec .light-bg {
   background-color: #766CEB;
@@ -10167,6 +10197,11 @@ body {
   -moz-border-radius: 0px 0px 10px 10px;
   -ms-border-radius: 0px 0px 10px 10px;
   -o-border-radius: 0px 0px 10px 10px;
+}
+@media (max-width: 575px) {
+  .header-bottom-sec .for-mobile-dev {
+    justify-content: center;
+  }
 }
 
 .health-concern-section, .chronic-disease-section, .why-med-sec, .assistance-program-sec, .imported-sec, .testimonial-section, .customer-review-section {
@@ -10187,6 +10222,11 @@ body {
   right: 0;
   width: 50%;
 }
+@media (max-width: 575px) {
+  .health-concern-section .heading, .chronic-disease-section .heading, .why-med-sec .heading, .assistance-program-sec .heading, .imported-sec .heading, .testimonial-section .heading, .customer-review-section .heading {
+    font-size: 24px;
+  }
+}
 .health-concern-section .health-concern-slider .healthy-pics, .health-concern-section .chronic-disease-slider .healthy-pics, .chronic-disease-section .health-concern-slider .healthy-pics, .chronic-disease-section .chronic-disease-slider .healthy-pics, .why-med-sec .health-concern-slider .healthy-pics, .why-med-sec .chronic-disease-slider .healthy-pics, .assistance-program-sec .health-concern-slider .healthy-pics, .assistance-program-sec .chronic-disease-slider .healthy-pics, .imported-sec .health-concern-slider .healthy-pics, .imported-sec .chronic-disease-slider .healthy-pics, .testimonial-section .health-concern-slider .healthy-pics, .testimonial-section .chronic-disease-slider .healthy-pics, .customer-review-section .health-concern-slider .healthy-pics, .customer-review-section .chronic-disease-slider .healthy-pics {
   background: #EBFCFB;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -10196,12 +10236,27 @@ body {
 .health-concern-section .health-concern-slider .slick-slide, .health-concern-section .chronic-disease-slider .slick-slide, .chronic-disease-section .health-concern-slider .slick-slide, .chronic-disease-section .chronic-disease-slider .slick-slide, .why-med-sec .health-concern-slider .slick-slide, .why-med-sec .chronic-disease-slider .slick-slide, .assistance-program-sec .health-concern-slider .slick-slide, .assistance-program-sec .chronic-disease-slider .slick-slide, .imported-sec .health-concern-slider .slick-slide, .imported-sec .chronic-disease-slider .slick-slide, .testimonial-section .health-concern-slider .slick-slide, .testimonial-section .chronic-disease-slider .slick-slide, .customer-review-section .health-concern-slider .slick-slide, .customer-review-section .chronic-disease-slider .slick-slide {
   margin: 0px 10px;
 }
+@media (max-width: 575px) {
+  .health-concern-section .health-concern-slider .slick-slide, .health-concern-section .chronic-disease-slider .slick-slide, .chronic-disease-section .health-concern-slider .slick-slide, .chronic-disease-section .chronic-disease-slider .slick-slide, .why-med-sec .health-concern-slider .slick-slide, .why-med-sec .chronic-disease-slider .slick-slide, .assistance-program-sec .health-concern-slider .slick-slide, .assistance-program-sec .chronic-disease-slider .slick-slide, .imported-sec .health-concern-slider .slick-slide, .imported-sec .chronic-disease-slider .slick-slide, .testimonial-section .health-concern-slider .slick-slide, .testimonial-section .chronic-disease-slider .slick-slide, .customer-review-section .health-concern-slider .slick-slide, .customer-review-section .chronic-disease-slider .slick-slide {
+    margin: unset;
+  }
+}
+@media (max-width: 575px) {
+  .health-concern-section .health-concern-slider .for-mobile-dev, .health-concern-section .chronic-disease-slider .for-mobile-dev, .chronic-disease-section .health-concern-slider .for-mobile-dev, .chronic-disease-section .chronic-disease-slider .for-mobile-dev, .why-med-sec .health-concern-slider .for-mobile-dev, .why-med-sec .chronic-disease-slider .for-mobile-dev, .assistance-program-sec .health-concern-slider .for-mobile-dev, .assistance-program-sec .chronic-disease-slider .for-mobile-dev, .imported-sec .health-concern-slider .for-mobile-dev, .imported-sec .chronic-disease-slider .for-mobile-dev, .testimonial-section .health-concern-slider .for-mobile-dev, .testimonial-section .chronic-disease-slider .for-mobile-dev, .customer-review-section .health-concern-slider .for-mobile-dev, .customer-review-section .chronic-disease-slider .for-mobile-dev {
+    margin: 10px 0px;
+  }
+}
 .health-concern-section .health-concern-slider .affected-area, .health-concern-section .chronic-disease-slider .affected-area, .chronic-disease-section .health-concern-slider .affected-area, .chronic-disease-section .chronic-disease-slider .affected-area, .why-med-sec .health-concern-slider .affected-area, .why-med-sec .chronic-disease-slider .affected-area, .assistance-program-sec .health-concern-slider .affected-area, .assistance-program-sec .chronic-disease-slider .affected-area, .imported-sec .health-concern-slider .affected-area, .imported-sec .chronic-disease-slider .affected-area, .testimonial-section .health-concern-slider .affected-area, .testimonial-section .chronic-disease-slider .affected-area, .customer-review-section .health-concern-slider .affected-area, .customer-review-section .chronic-disease-slider .affected-area {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
   text-transform: capitalize;
   color: #333333;
+}
+@media (max-width: 575px) {
+  .health-concern-section .health-concern-slider .affected-area, .health-concern-section .chronic-disease-slider .affected-area, .chronic-disease-section .health-concern-slider .affected-area, .chronic-disease-section .chronic-disease-slider .affected-area, .why-med-sec .health-concern-slider .affected-area, .why-med-sec .chronic-disease-slider .affected-area, .assistance-program-sec .health-concern-slider .affected-area, .assistance-program-sec .chronic-disease-slider .affected-area, .imported-sec .health-concern-slider .affected-area, .imported-sec .chronic-disease-slider .affected-area, .testimonial-section .health-concern-slider .affected-area, .testimonial-section .chronic-disease-slider .affected-area, .customer-review-section .health-concern-slider .affected-area, .customer-review-section .chronic-disease-slider .affected-area {
+    font-size: 20px;
+  }
 }
 .health-concern-section .health-concern-slider .shop-link, .health-concern-section .chronic-disease-slider .shop-link, .chronic-disease-section .health-concern-slider .shop-link, .chronic-disease-section .chronic-disease-slider .shop-link, .why-med-sec .health-concern-slider .shop-link, .why-med-sec .chronic-disease-slider .shop-link, .assistance-program-sec .health-concern-slider .shop-link, .assistance-program-sec .chronic-disease-slider .shop-link, .imported-sec .health-concern-slider .shop-link, .imported-sec .chronic-disease-slider .shop-link, .testimonial-section .health-concern-slider .shop-link, .testimonial-section .chronic-disease-slider .shop-link, .customer-review-section .health-concern-slider .shop-link, .customer-review-section .chronic-disease-slider .shop-link {
   font-weight: bold;
@@ -10214,6 +10269,11 @@ body {
   content: ">";
   margin-left: 10px;
 }
+@media (max-width: 575px) {
+  .health-concern-section .health-concern-slider .shop-link, .health-concern-section .chronic-disease-slider .shop-link, .chronic-disease-section .health-concern-slider .shop-link, .chronic-disease-section .chronic-disease-slider .shop-link, .why-med-sec .health-concern-slider .shop-link, .why-med-sec .chronic-disease-slider .shop-link, .assistance-program-sec .health-concern-slider .shop-link, .assistance-program-sec .chronic-disease-slider .shop-link, .imported-sec .health-concern-slider .shop-link, .imported-sec .chronic-disease-slider .shop-link, .testimonial-section .health-concern-slider .shop-link, .testimonial-section .chronic-disease-slider .shop-link, .customer-review-section .health-concern-slider .shop-link, .customer-review-section .chronic-disease-slider .shop-link {
+    font-size: 16px;
+  }
+}
 .health-concern-section .health-concern-slider .slick-arrow, .health-concern-section .chronic-disease-slider .slick-arrow, .chronic-disease-section .health-concern-slider .slick-arrow, .chronic-disease-section .chronic-disease-slider .slick-arrow, .why-med-sec .health-concern-slider .slick-arrow, .why-med-sec .chronic-disease-slider .slick-arrow, .assistance-program-sec .health-concern-slider .slick-arrow, .assistance-program-sec .chronic-disease-slider .slick-arrow, .imported-sec .health-concern-slider .slick-arrow, .imported-sec .chronic-disease-slider .slick-arrow, .testimonial-section .health-concern-slider .slick-arrow, .testimonial-section .chronic-disease-slider .slick-arrow, .customer-review-section .health-concern-slider .slick-arrow, .customer-review-section .chronic-disease-slider .slick-arrow {
   background-color: #000;
   top: -15%;
@@ -10223,6 +10283,11 @@ body {
 }
 .health-concern-section .health-concern-slider .slick-arrow.slick-next, .health-concern-section .chronic-disease-slider .slick-arrow.slick-next, .chronic-disease-section .health-concern-slider .slick-arrow.slick-next, .chronic-disease-section .chronic-disease-slider .slick-arrow.slick-next, .why-med-sec .health-concern-slider .slick-arrow.slick-next, .why-med-sec .chronic-disease-slider .slick-arrow.slick-next, .assistance-program-sec .health-concern-slider .slick-arrow.slick-next, .assistance-program-sec .chronic-disease-slider .slick-arrow.slick-next, .imported-sec .health-concern-slider .slick-arrow.slick-next, .imported-sec .chronic-disease-slider .slick-arrow.slick-next, .testimonial-section .health-concern-slider .slick-arrow.slick-next, .testimonial-section .chronic-disease-slider .slick-arrow.slick-next, .customer-review-section .health-concern-slider .slick-arrow.slick-next, .customer-review-section .chronic-disease-slider .slick-arrow.slick-next {
   right: 5%;
+}
+@media (max-width: 575px) {
+  .health-concern-section .health-concern-slider .slick-arrow.slick-next, .health-concern-section .chronic-disease-slider .slick-arrow.slick-next, .chronic-disease-section .health-concern-slider .slick-arrow.slick-next, .chronic-disease-section .chronic-disease-slider .slick-arrow.slick-next, .why-med-sec .health-concern-slider .slick-arrow.slick-next, .why-med-sec .chronic-disease-slider .slick-arrow.slick-next, .assistance-program-sec .health-concern-slider .slick-arrow.slick-next, .assistance-program-sec .chronic-disease-slider .slick-arrow.slick-next, .imported-sec .health-concern-slider .slick-arrow.slick-next, .imported-sec .chronic-disease-slider .slick-arrow.slick-next, .testimonial-section .health-concern-slider .slick-arrow.slick-next, .testimonial-section .chronic-disease-slider .slick-arrow.slick-next, .customer-review-section .health-concern-slider .slick-arrow.slick-next, .customer-review-section .chronic-disease-slider .slick-arrow.slick-next {
+    right: 15%;
+  }
 }
 .health-concern-section .health-concern-slider .chronic-box, .health-concern-section .chronic-disease-slider .chronic-box, .chronic-disease-section .health-concern-slider .chronic-box, .chronic-disease-section .chronic-disease-slider .chronic-box, .why-med-sec .health-concern-slider .chronic-box, .why-med-sec .chronic-disease-slider .chronic-box, .assistance-program-sec .health-concern-slider .chronic-box, .assistance-program-sec .chronic-disease-slider .chronic-box, .imported-sec .health-concern-slider .chronic-box, .imported-sec .chronic-disease-slider .chronic-box, .testimonial-section .health-concern-slider .chronic-box, .testimonial-section .chronic-disease-slider .chronic-box, .customer-review-section .health-concern-slider .chronic-box, .customer-review-section .chronic-disease-slider .chronic-box {
   background: #fff;
@@ -10269,6 +10334,11 @@ body {
   line-height: 36px;
   color: #000000;
 }
+@media (max-width: 575px) {
+  .assistance-program-sec .program-desc, .assistance-program-sec .import-desc, .imported-sec .program-desc, .imported-sec .import-desc {
+    font-size: 18px;
+  }
+}
 .assistance-program-sec .register-program, .assistance-program-sec .import, .imported-sec .register-program, .imported-sec .import {
   background-color: #766CEB;
   border-radius: 15px;
@@ -10289,6 +10359,11 @@ body {
 .assistance-program-sec .register-program:focus, .assistance-program-sec .import:focus, .imported-sec .register-program:focus, .imported-sec .import:focus {
   box-shadow: none !important;
 }
+@media (max-width: 575px) {
+  .assistance-program-sec .register-program, .assistance-program-sec .import, .imported-sec .register-program, .imported-sec .import {
+    font-size: 16px;
+  }
+}
 .assistance-program-sec .assistance-box, .imported-sec .assistance-box {
   background: #fff;
   box-shadow: 0px 4px 17px rgba(173, 173, 173, 0.46);
@@ -10303,11 +10378,22 @@ body {
   -o-border-radius: 30px;
   height: 150px;
 }
+@media (max-width: 575px) {
+  .assistance-program-sec .assistance-box, .imported-sec .assistance-box {
+    width: 150px;
+    margin: auto;
+  }
+}
 .assistance-program-sec .register-intro, .assistance-program-sec .import-reason, .imported-sec .register-intro, .imported-sec .import-reason {
   font-weight: bold;
   font-size: 26px;
   line-height: 41px;
   color: #000000;
+}
+@media (max-width: 575px) {
+  .assistance-program-sec .register-intro, .assistance-program-sec .import-reason, .imported-sec .register-intro, .imported-sec .import-reason {
+    font-size: 18px;
+  }
 }
 
 .imported-sec .import-round {
@@ -10350,6 +10436,11 @@ body {
   line-height: 36px;
   color: #151414;
 }
+@media (max-width: 575px) {
+  .about-section .company-desc {
+    font-size: 18px;
+  }
+}
 
 .our-services {
   background-color: #fff;
@@ -10366,6 +10457,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 575px) {
+  .our-services .service .service-pic {
+    width: 150px;
+    height: 150px;
+  }
 }
 .our-services .service .count {
   font-style: normal;
@@ -10410,12 +10507,23 @@ body {
   left: -20px;
   top: -15px;
 }
+@media (max-width: 575px) {
+  .testimonial-section .testimonial-slider .testimonial-box .client-pic img {
+    left: -5px;
+    top: -15px;
+  }
+}
 .testimonial-section .testimonial-slider .testimonial-box .client-name {
   font-weight: bold;
   font-size: 26px;
   line-height: 34px;
   text-transform: capitalize;
   color: #424242;
+}
+@media (max-width: 575px) {
+  .testimonial-section .testimonial-slider .testimonial-box .client-name {
+    font-size: 18px;
+  }
 }
 .testimonial-section .testimonial-slider .testimonial-box .client-mail-id {
   font-weight: normal;
@@ -10430,6 +10538,16 @@ body {
   line-height: 34px;
   text-transform: uppercase;
   color: #646464;
+}
+@media (max-width: 575px) {
+  .testimonial-section .testimonial-slider .testimonial-box .client-review {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .testimonial-section .testimonial-slider .testimonial-box {
+    margin: 20px 8px;
+  }
 }
 
 .customer-review-section .customer-review-slider .customer-box {
@@ -10459,6 +10577,11 @@ body {
   line-height: 32px;
   text-transform: capitalize;
 }
+@media (max-width: 575px) {
+  .customer-review-section .customer-review-slider .customer-box .customer-name {
+    font-size: 18px;
+  }
+}
 .customer-review-section .customer-review-slider .customer-box .customer-mail-id {
   font-size: 16px;
   line-height: 22px;
@@ -10467,6 +10590,11 @@ body {
   font-size: 25px;
   line-height: 34px;
   color: #646464;
+}
+@media (max-width: 575px) {
+  .customer-review-section .customer-review-slider .customer-box .customer-review {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
