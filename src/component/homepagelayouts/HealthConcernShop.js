@@ -98,14 +98,14 @@ class HealthConcernShop extends Component {
                                             alt="slider"
                                         />
                                     </div>                                    
-                                     <di className='for-mobile-dev'v>
+                                    <div className='for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Quit Smoking
                                         </p>
                                         <p className='shop-link'>
                                             Shop now
                                         </p>
-                                    </di>
+                                    </div>
                                 </div>                        
                                 <div>
                                     <div className='healthy-pics'>
@@ -116,14 +116,14 @@ class HealthConcernShop extends Component {
                                         />
                                     </div>
                                     
-                                     <di className='for-mobile-dev'v>
+                                    <div className='for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Stomach Care
                                         </p>
                                         <p className='shop-link'>
                                             Shop now
                                         </p>
-                                    </di>
+                                    </div>
                                 </div>
                                 <div>
                                     <div className='healthy-pics'>
@@ -134,14 +134,14 @@ class HealthConcernShop extends Component {
                                         />
                                     </div>
                                    
-                                     <di className='for-mobile-dev'v>
+                                     <div className='for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Quit Smoking
                                         </p>
                                         <p className='shop-link'>
                                             Shop now
                                         </p>
-                                    </di>
+                                    </div>
                                 </div>                        
                                 <div>
                                     <div className='healthy-pics'>
@@ -152,14 +152,14 @@ class HealthConcernShop extends Component {
                                         />
                                     </div>
                                     
-                                     <di className='for-mobile-dev'v>
+                                     <div className='for-mobile-dev'>
                                         <p className='affected-area mb-0'>
                                             Stomach Care
                                         </p>
                                         <p className='shop-link'>
                                             Shop now
                                         </p>
-                                    </di>
+                                    </div>
                                 </div>
                             </Slider>
                         </div>   

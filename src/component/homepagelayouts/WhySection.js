@@ -27,7 +27,7 @@ function WhySection() {
                                         alt="Centric"
                                     />
                                 </div>
-                                <div className='ml-4'>
+                                <div className='ml-4 for-mobile-dev'>
                                     <h6 className='heading'>Patient Centric</h6>
                                     
                                     <p className='reasonable'>We have the largest inventory of medicine and are focused on offering the best price to patients. 
@@ -44,7 +44,7 @@ function WhySection() {
                                         alt="Centric"
                                     />
                                 </div>
-                                <div className='ml-4'>
+                                <div className='ml-4 for-mobile-dev'>
                                     <h6 className='heading'>Highest Quality, Genuine Medicine</h6>
                                     
                                     <p className='reasonable'>We assure you of ethical practices, genuine invoices that match dispatched medicine batch number.</p>
@@ -60,7 +60,7 @@ function WhySection() {
                                         alt="Centric"
                                     />
                                 </div>
-                                <div className='ml-4'>
+                                <div className='ml-4 for-mobile-dev'>
                                     <h6 className='heading'>Delivery across India with upmost care</h6>
                                     
                                     <p className='reasonable'>Cold chain logistics, on-time delivery.</p>
@@ -76,7 +76,7 @@ function WhySection() {
                                         alt="Centric"
                                     />
                                 </div>
-                                <div className='ml-4'>
+                                <div className='ml-4 for-mobile-dev'>
                                     <h6 className='heading'>Inhouse Pharmacists</h6>
                                     
                                     <p className='reasonable'>Our in-house pharmacists will assist you with your prescription, patient assistance programs offered by pharma companies and much more.</p>
@@ -92,7 +92,7 @@ function WhySection() {
                                         alt="Centric"
                                     />
                                 </div>
-                                <div className='ml-4'>
+                                <div className='ml-4 for-mobile-dev'>
                                     <h6 className='heading'>Super Speciality Pharma Experts </h6>
                                     
                                     <p className='reasonable'>The team at Mr. Med comprises of pharmacists, distributors and clinicians with over 40 years of experience.</p>

@@ -34,7 +34,7 @@ function AssistanceProgram() {
                     </div>
 
                     <div className='row justify-content-around mt-3'>
-                        <div className='col-md-2'>
+                        <div className='col-md-4'>
                             <div className='assistance-box'>
                                 <img
                                     src={ Register }
@@ -46,7 +46,7 @@ function AssistanceProgram() {
                                 Register with Mr.Med
                             </p>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-4'>
                             <div className='assistance-box'>
                                 <img
                                     src={ Search }
@@ -58,7 +58,7 @@ function AssistanceProgram() {
                                 Search for your prescription medicine
                             </p>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-4'>
                             <div className='assistance-box'>
                                 <img
                                     src={ Request }
@@ -70,7 +70,7 @@ function AssistanceProgram() {
                                 Request enrollment in PAP for your prescription medicine 
                             </p>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-4'>
                             <div className='assistance-box'>
                                 <img
                                     src={ Contact }
@@ -82,7 +82,7 @@ function AssistanceProgram() {
                                 We will reach out to you with process details and documentation required for PAP registration
                             </p>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-md-4'>
                             <div className='assistance-box'>
                                 <img
                                     src={ Delivery }
