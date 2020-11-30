@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 import Diabetics from '../../assets/images/chronic-diseases/diabetics.png'
 import Cancer from '../../assets/images/chronic-diseases/cancer.png'
-import Hiv_Pic from '../../assets/images/chronic-diseases/hiv.png'
+import HivPic from '../../assets/images/chronic-diseases/hiv.png'
 import Arthritis from '../../assets/images/chronic-diseases/Arthritis.png'
 
 
@@ -91,10 +91,10 @@ class ChronicDisease extends Component {
                                         </p>
                                     </div>
                                 </div>                        
-                                {/* <div className='chronic-box'>
+                                <div className='chronic-box'>
                                     <div className='chronic-pics'>
                                         <img
-                                            src={ Hiv_Pic }
+                                            src={ HivPic }
                                             className="d-inline-block align-top w-100"
                                             alt="slider"
                                         />
@@ -107,7 +107,7 @@ class ChronicDisease extends Component {
                                             Shop now
                                         </p>
                                     </div>
-                                </div>                         */}
+                                </div>                        
                                 <div className='chronic-box'>
                                     <div className='chronic-pics'>
                                         <img

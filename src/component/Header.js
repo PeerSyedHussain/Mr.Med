@@ -75,7 +75,7 @@ class Header extends Component {
                                         <div>
                                             <p className='mb-0 text-grey'>
                                                 EN
-                                                <i class="fa fa-angle-down mx-1"></i>
+                                                <i className="fa fa-angle-down mx-1"></i>
                                             </p>
                                         </div>
                                         <div>

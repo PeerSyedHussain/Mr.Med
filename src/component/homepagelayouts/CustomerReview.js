@@ -65,11 +65,11 @@ function CustomerReview() {
 
                                     <p className='customer-mail-id '>shahjahan@gmail.com</p>
                                     <div className='my-1'>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
 
                                     <p className='customer-review'>
@@ -91,11 +91,11 @@ function CustomerReview() {
 
                                     <p className='customer-mail-id'>shahjahan@gmail.com</p>
                                     <div className='my-1'>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
 
                                     <p className='customer-review'>
@@ -117,11 +117,11 @@ function CustomerReview() {
 
                                     <p className='customer-mail-id'>shahjahan@gmail.com</p>
                                     <div className='my-1'>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
 
                                     <p className='customer-review'>
@@ -143,11 +143,11 @@ function CustomerReview() {
 
                                     <p className='customer-mail-id'>shahjahan@gmail.com</p>
                                     <div className='my-1'>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
 
                                     <p className='customer-review'>
@@ -169,11 +169,11 @@ function CustomerReview() {
 
                                     <p className='customer-mail-id'>shahjahan@gmail.com</p>
                                     <div className='my-1'>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
                                     </div>
 
                                     <p className='customer-review'>
