@@ -12,7 +12,6 @@ import Headset from './../assets/images/icons/headset.png'
 import Whatsapp from './../assets/images/icons/whatsapp.png'
 import UserImg from './../assets/images/icons/user.png';
 import Cart from './../assets/images/icons/cart.png'
-
 class Header extends Component {
   
     render() {

@@ -165,7 +165,6 @@
             }
         }
         .slick-arrow{
-            background-color: #000;
             top: -15%;
             &.slick-prev{
                 left: 90%;
@@ -175,6 +174,10 @@
                 @media(max-width:768px){
                     right : 15%;
                 }
+            }
+            &:before{
+                color : $text-grey;
+                background-color: transparent;
             }
         }
         .chronic-box{
@@ -198,7 +201,7 @@
         @media(min-width: 1920px){
             max-width: unset;
             width: 80%;
-            
+
         }
     }
 }

@@ -10179,6 +10179,20 @@ body {
   }
 }
 
+.chat-btn {
+  position: fixed;
+  display: block;
+  width: 65px;
+  height: 65px;
+  background: #766CEB;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-bottom-sec .special-medicine-box {
   background: #fff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
@@ -10349,7 +10363,6 @@ body {
   }
 }
 .health-concern-section .health-concern-slider .slick-arrow, .health-concern-section .chronic-disease-slider .slick-arrow, .chronic-disease-section .health-concern-slider .slick-arrow, .chronic-disease-section .chronic-disease-slider .slick-arrow, .why-med-sec .health-concern-slider .slick-arrow, .why-med-sec .chronic-disease-slider .slick-arrow, .assistance-program-sec .health-concern-slider .slick-arrow, .assistance-program-sec .chronic-disease-slider .slick-arrow, .imported-sec .health-concern-slider .slick-arrow, .imported-sec .chronic-disease-slider .slick-arrow, .testimonial-section .health-concern-slider .slick-arrow, .testimonial-section .chronic-disease-slider .slick-arrow, .customer-review-section .health-concern-slider .slick-arrow, .customer-review-section .chronic-disease-slider .slick-arrow {
-  background-color: #000;
   top: -15%;
 }
 .health-concern-section .health-concern-slider .slick-arrow.slick-prev, .health-concern-section .chronic-disease-slider .slick-arrow.slick-prev, .chronic-disease-section .health-concern-slider .slick-arrow.slick-prev, .chronic-disease-section .chronic-disease-slider .slick-arrow.slick-prev, .why-med-sec .health-concern-slider .slick-arrow.slick-prev, .why-med-sec .chronic-disease-slider .slick-arrow.slick-prev, .assistance-program-sec .health-concern-slider .slick-arrow.slick-prev, .assistance-program-sec .chronic-disease-slider .slick-arrow.slick-prev, .imported-sec .health-concern-slider .slick-arrow.slick-prev, .imported-sec .chronic-disease-slider .slick-arrow.slick-prev, .testimonial-section .health-concern-slider .slick-arrow.slick-prev, .testimonial-section .chronic-disease-slider .slick-arrow.slick-prev, .customer-review-section .health-concern-slider .slick-arrow.slick-prev, .customer-review-section .chronic-disease-slider .slick-arrow.slick-prev {
@@ -10362,6 +10375,10 @@ body {
   .health-concern-section .health-concern-slider .slick-arrow.slick-next, .health-concern-section .chronic-disease-slider .slick-arrow.slick-next, .chronic-disease-section .health-concern-slider .slick-arrow.slick-next, .chronic-disease-section .chronic-disease-slider .slick-arrow.slick-next, .why-med-sec .health-concern-slider .slick-arrow.slick-next, .why-med-sec .chronic-disease-slider .slick-arrow.slick-next, .assistance-program-sec .health-concern-slider .slick-arrow.slick-next, .assistance-program-sec .chronic-disease-slider .slick-arrow.slick-next, .imported-sec .health-concern-slider .slick-arrow.slick-next, .imported-sec .chronic-disease-slider .slick-arrow.slick-next, .testimonial-section .health-concern-slider .slick-arrow.slick-next, .testimonial-section .chronic-disease-slider .slick-arrow.slick-next, .customer-review-section .health-concern-slider .slick-arrow.slick-next, .customer-review-section .chronic-disease-slider .slick-arrow.slick-next {
     right: 15%;
   }
+}
+.health-concern-section .health-concern-slider .slick-arrow:before, .health-concern-section .chronic-disease-slider .slick-arrow:before, .chronic-disease-section .health-concern-slider .slick-arrow:before, .chronic-disease-section .chronic-disease-slider .slick-arrow:before, .why-med-sec .health-concern-slider .slick-arrow:before, .why-med-sec .chronic-disease-slider .slick-arrow:before, .assistance-program-sec .health-concern-slider .slick-arrow:before, .assistance-program-sec .chronic-disease-slider .slick-arrow:before, .imported-sec .health-concern-slider .slick-arrow:before, .imported-sec .chronic-disease-slider .slick-arrow:before, .testimonial-section .health-concern-slider .slick-arrow:before, .testimonial-section .chronic-disease-slider .slick-arrow:before, .customer-review-section .health-concern-slider .slick-arrow:before, .customer-review-section .chronic-disease-slider .slick-arrow:before {
+  color: #333333;
+  background-color: transparent;
 }
 .health-concern-section .health-concern-slider .chronic-box, .health-concern-section .chronic-disease-slider .chronic-box, .chronic-disease-section .health-concern-slider .chronic-box, .chronic-disease-section .chronic-disease-slider .chronic-box, .why-med-sec .health-concern-slider .chronic-box, .why-med-sec .chronic-disease-slider .chronic-box, .assistance-program-sec .health-concern-slider .chronic-box, .assistance-program-sec .chronic-disease-slider .chronic-box, .imported-sec .health-concern-slider .chronic-box, .imported-sec .chronic-disease-slider .chronic-box, .testimonial-section .health-concern-slider .chronic-box, .testimonial-section .chronic-disease-slider .chronic-box, .customer-review-section .health-concern-slider .chronic-box, .customer-review-section .chronic-disease-slider .chronic-box {
   background: #fff;

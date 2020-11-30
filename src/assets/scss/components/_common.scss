@@ -277,3 +277,17 @@ body{
         }
     }
 }
+
+.chat-btn{
+    position: fixed;
+    display: block;
+    width: 65px;
+    height: 65px;
+    background:$primary-color;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
