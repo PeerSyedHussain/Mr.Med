@@ -126,8 +126,8 @@ class Homepage extends Component {
                         <div className='col-md-7'>
                             <OrderingSection />
 
-                            <div className='row mt-4'>
-                                <div className='col-md-4'>
+                            <div className='row mt-4 for-md-dev'>
+                                <div className='col-md-4 adjust-width'>
                                     <div className='usage-comfort-box p-3'>
                                         <div className='usagability-pic mx-2'>
                                             <img
@@ -142,7 +142,7 @@ class Homepage extends Component {
                                         <div className='light-bg'></div>                                   
                                     </div>
                                 </div>
-                                <div className='col-md-4'>
+                                <div className='col-md-4 adjust-width'>
                                     <div className='usage-comfort-box p-3'>
                                         <div className='usagability-pic mx-2'>
                                             <img
@@ -157,7 +157,7 @@ class Homepage extends Component {
                                         <div className='light-bg'></div>                                      
                                     </div>
                                 </div>
-                                <div className='col-md-4'>
+                                <div className='col-md-4 adjust-width'>
                                     <div className='usage-comfort-box p-3'>
                                         <div className='usagability-pic mx-2'>
                                             <img

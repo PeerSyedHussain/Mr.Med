@@ -67,7 +67,7 @@
         .usagability-pic{
             z-index: 1;
         }
-        @media(max-width: 768px){
+        @media(max-width: 1200px){
             margin : 10px 0px;
         }
     }
@@ -87,8 +87,16 @@
         -o-border-radius: 0px 0px 10px 10px;
     }
     .for-mobile-dev{
-        @media(max-width : 768px){
+        @media(max-width : 1200px){
             justify-content: center;
+        }
+    }
+    .for-md-dev{
+        @media(min-width: 767px) and (max-width:1200px){
+            flex-direction: column;
+            .adjust-width{
+                max-width: unset;
+            }
         }
     }
 
@@ -186,6 +194,13 @@
             }
         }
     }
+    .for-xl-device{
+        @media(min-width: 1920px){
+            max-width: unset;
+            width: 80%;
+            
+        }
+    }
 }
 
 .why-med-sec{
@@ -271,10 +286,8 @@
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
         height:150px;
-        @media(max-width:1400px){
-            width : 150px;
-            margin : auto;
-        }
+        width:150px;
+        margin : auto;
     }
     .register-intro,.import-reason{
         font-weight: bold;

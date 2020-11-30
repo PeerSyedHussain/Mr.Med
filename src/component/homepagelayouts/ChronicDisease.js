@@ -47,7 +47,7 @@ class ChronicDisease extends Component {
         return (
             <>
                 <div className='chronic-disease-section my-2 py-3'>
-                    <div className='container mr-0'>
+                    <div className='container mr-0 for-xl-device'>
                         <div className='row'>
                             <h5 className='heading'>
                                 Medicines for Chronic Diseases

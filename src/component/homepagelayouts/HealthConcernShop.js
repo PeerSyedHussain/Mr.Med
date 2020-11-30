@@ -46,7 +46,7 @@ class HealthConcernShop extends Component {
         return (
             <>
                 <div className='health-concern-section my-2 py-3'>
-                    <div className='container mr-0'>
+                    <div className='container mr-0 for-xl-device'>
                         <div className='row'>
                             <h5 className='heading'>
                                 Shop by health concern

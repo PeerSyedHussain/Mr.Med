@@ -90,7 +90,7 @@ class Header extends Component {
                                             </p>
                                         </div>
                                 </div>
-                                <div className='row'>
+                                <div className='row for-small-mobile-dev'>
                                         <div className='mr-2'>
                                             <p className='mb-0 text-grey d-flex align-items-center'>
                                                 <img
@@ -102,7 +102,7 @@ class Header extends Component {
                                             </p>
                                         </div>
                                         <span className='separator-black'></span>
-                                        <div className='mx-2'>
+                                        <div className='mx-2 for-xs-position-login'>
                                             <p className='mb-0 text-grey'>
                                                 <img
                                                     src={ UserImg }
@@ -113,7 +113,7 @@ class Header extends Component {
                                             </p>
                                         </div>
                                         <span className='separator-black'></span>
-                                        <div className='ml-2'>
+                                        <div className='ml-2 for-xs-position-cart'>
                                             <p className='mb-0 text-grey'>
                                                 <img
                                                     src={ Cart }

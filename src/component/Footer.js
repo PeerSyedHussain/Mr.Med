@@ -27,8 +27,8 @@ function Footer() {
                             </div>
                         </div>
                         <div className='col-md-8'>
-                            <div className='row'>
-                                <div className='col-md-2'>
+                            <div className='row for-md-dev'>
+                                <div className='col-md-2 adjustable-width'>
                                     <div>
                                         <h6 className='footer-link-heading'>Company</h6>
 
@@ -57,7 +57,7 @@ function Footer() {
                                        </ul>
                                     </div>
                                 </div>
-                                <div className='col-md-4'>
+                                <div className='col-md-4 adjustable-width'>
                                     <div>
                                         <h6 className='footer-link-heading'>Speciality Medicine</h6>
 
@@ -96,7 +96,7 @@ function Footer() {
                                        </ul>
                                     </div>  
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 adjustable-width'>
                                     <div>
                                         <h6 className='footer-link-heading'>Policy Info</h6>
 
@@ -125,7 +125,7 @@ function Footer() {
                                        </ul>
                                     </div>
                                 </div>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 adjustable-width'>
                                     <div>
                                         <h6 className='footer-link-heading'>Get in touch</h6>
 

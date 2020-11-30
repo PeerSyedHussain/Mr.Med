@@ -9949,6 +9949,7 @@ body {
 @media (max-width: 575px) {
   #header nav .upload-btn {
     font-size: 16px;
+    margin: 10px auto;
   }
 }
 #header nav .basic-details {
@@ -9968,6 +9969,7 @@ body {
   background-color: transparent;
   border: none;
   width: 100%;
+  color: #333333;
 }
 #header nav .basic-details .city-select:hover, #header nav .basic-details .medicine-search-box:hover {
   cursor: pointer;
@@ -9986,6 +9988,44 @@ body {
 #header nav .basic-details .medicine-search-box:focus {
   box-shadow: none;
 }
+@media (max-width: 575px) {
+  #header nav .basic-details {
+    display: block;
+    padding: 10px 0px 10px 14px;
+  }
+  #header nav .basic-details .separator-black {
+    display: none;
+  }
+  #header nav .basic-details .form-inline {
+    padding: 0;
+  }
+  #header nav .basic-details .location-icon, #header nav .basic-details .search-icon {
+    right: 5px;
+  }
+  #header nav .basic-details .medicine-search-box {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 0px;
+  }
+  #header nav .basic-details .medicine-search-box::-moz-placeholder, #header nav .basic-details .medicine-search-box::-webkit-input-placeholder {
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 576px) and (max-width: 1200px) {
+  #header #basic-navbar-nav.collapse.show {
+    display: flex;
+  }
+  #header #basic-navbar-nav.collapse.show .city-select, #header #basic-navbar-nav.collapse.show .medicine-search-box {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  #header #basic-navbar-nav.collapse.show .city-select::-moz-placeholder, #header #basic-navbar-nav.collapse.show .city-select::-webkit-input-placeholder, #header #basic-navbar-nav.collapse.show .medicine-search-box::-moz-placeholder, #header #basic-navbar-nav.collapse.show .medicine-search-box::-webkit-input-placeholder {
+    text-overflow: ellipsis;
+  }
+  #header #basic-navbar-nav.collapse.show .location-icon, #header #basic-navbar-nav.collapse.show .search-icon {
+    right: 1px;
+  }
+}
 
 .text-grey {
   color: #333333;
@@ -10003,12 +10043,25 @@ body {
 .movable-header .separator-header-sec {
   border-bottom: 1px solid #DBDEDF;
 }
+@media (max-width: 575px) {
+  .movable-header .separator-header-sec .for-small-mobile-dev {
+    margin: 12px 0px;
+  }
+  .movable-header .separator-header-sec .for-small-mobile-dev .separator-black {
+    display: none;
+  }
+}
+@media (max-width: 448px) {
+  .movable-header .separator-header-sec .for-small-mobile-dev .for-xs-position-login, .movable-header .separator-header-sec .for-small-mobile-dev .for-xs-position-cart {
+    margin: 5px 0px 5px 0px !important;
+  }
+}
 .movable-header .user-optionality {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 993px) {
   .movable-header .user-optionality {
     display: unset;
   }
@@ -10049,7 +10102,7 @@ body {
     font-size: 16px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 993px) {
   .movable-header .options {
     padding: 10px 0px 10px 0px;
   }
@@ -10117,6 +10170,14 @@ body {
   color: #fff;
   opacity: 0.6;
 }
+@media (min-width: 767px) and (max-width: 1201px) {
+  .footer-section .for-md-dev {
+    flex-direction: column;
+  }
+  .footer-section .for-md-dev .adjustable-width {
+    max-width: unset;
+  }
+}
 
 .header-bottom-sec .special-medicine-box {
   background: #fff;
@@ -10183,7 +10244,7 @@ body {
 .header-bottom-sec .usage-comfort-box .usagability-pic {
   z-index: 1;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .header-bottom-sec .usage-comfort-box {
     margin: 10px 0px;
   }
@@ -10203,9 +10264,17 @@ body {
   -ms-border-radius: 0px 0px 10px 10px;
   -o-border-radius: 0px 0px 10px 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .header-bottom-sec .for-mobile-dev {
     justify-content: center;
+  }
+}
+@media (min-width: 767px) and (max-width: 1200px) {
+  .header-bottom-sec .for-md-dev {
+    flex-direction: column;
+  }
+  .header-bottom-sec .for-md-dev .adjust-width {
+    max-width: unset;
   }
 }
 
@@ -10308,6 +10377,12 @@ body {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+@media (min-width: 1920px) {
+  .health-concern-section .for-xl-device, .chronic-disease-section .for-xl-device, .why-med-sec .for-xl-device, .assistance-program-sec .for-xl-device, .imported-sec .for-xl-device, .testimonial-section .for-xl-device, .customer-review-section .for-xl-device {
+    max-width: unset;
+    width: 80%;
+  }
+}
 
 .why-med-sec {
   background-color: #fff;
@@ -10398,12 +10473,8 @@ body {
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   height: 150px;
-}
-@media (max-width: 1400px) {
-  .assistance-program-sec .assistance-box, .imported-sec .assistance-box {
-    width: 150px;
-    margin: auto;
-  }
+  width: 150px;
+  margin: auto;
 }
 .assistance-program-sec .register-intro, .assistance-program-sec .import-reason, .imported-sec .register-intro, .imported-sec .import-reason {
   font-weight: bold;

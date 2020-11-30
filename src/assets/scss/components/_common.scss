@@ -46,6 +46,7 @@ body{
             }
             @media(max-width: 575px){
                 font-size: 16px;
+                margin : 10px auto;
             }
         }
         
@@ -66,6 +67,7 @@ body{
                background-color: transparent;
                border: none;
                width: 100%;
+               color : $text-grey;
                &:hover{
                    cursor: pointer;
                }
@@ -86,6 +88,46 @@ body{
                    box-shadow: none;
                }
            }
+           @media(max-width: 575px){
+               display: block;
+               padding: 10px 0px 10px 14px;
+               .separator-black{
+                   display: none;
+               }
+               .form-inline{
+                   padding: 0;
+               }
+               .location-icon,.search-icon{
+                   right: 5px;
+               }
+               .medicine-search-box{
+                   text-overflow: ellipsis;
+                   overflow: hidden;
+                   &::-moz-placeholder,&::-webkit-input-placeholder{
+                        text-overflow: ellipsis;
+                   }
+                   padding-bottom: 0px;
+               }
+           }
+        }
+    }
+    #basic-navbar-nav{
+        &.collapse{
+            &.show{
+                @media(min-width: 576px) and (max-width: 1200px){
+                    display: flex;
+                    .city-select,.medicine-search-box{
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        &::-moz-placeholder,&::-webkit-input-placeholder{
+                            text-overflow: ellipsis;
+                       }
+                    }
+                    .location-icon,.search-icon{
+                        right: 1px;
+                    }
+                }
+            }
         }
     }
 }
@@ -102,12 +144,25 @@ body{
     margin-top:98px;
     .separator-header-sec{
         border-bottom: 1px solid #DBDEDF;
+        .for-small-mobile-dev{
+            @media(max-width: 575px){
+                margin :12px 0px;
+                .separator-black{
+                    display: none;
+                }
+            }
+            @media(max-width: 448px){
+                .for-xs-position-login,.for-xs-position-cart{
+                    margin :5px 0px 5px 0px !important;
+                }
+            }
+        }
     }
     .user-optionality{
         display: flex ;
         justify-content: space-evenly;
         align-items: center;
-        @media(max-width: 768px){
+        @media(max-width: 993px){
             display: unset;
         }
     }
@@ -144,7 +199,7 @@ body{
                 font-size: 16px;
             }
         }
-        @media(max-width: 768px){
+        @media(max-width: 993px){
             padding : 10px 0px 10px 0px;
         }
     }
@@ -212,5 +267,13 @@ body{
         line-height: 21px;
         color: $white;
         opacity: 0.6;
+    }
+    .for-md-dev{
+        @media(min-width: 767px) and (max-width:1201px){
+            flex-direction: column;
+            .adjustable-width{
+                max-width: unset;
+            }
+        }
     }
 }
