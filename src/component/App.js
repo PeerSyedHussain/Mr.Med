@@ -12,7 +12,6 @@ import OurService from './homepagelayouts/OurService';
 import Testimonial from './homepagelayouts/Testimonial';
 import WhySection from './homepagelayouts/WhySection';
 import chatBtn from './../assets/images/chat.png'
-
 class App extends Component {
     render() {
         return (
