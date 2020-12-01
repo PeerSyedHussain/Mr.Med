@@ -9917,9 +9917,14 @@ body {
   left: 0px;
   z-index: 1000;
   top: 0;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -ms-border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
 }
 #header nav .logo-img {
-  width: 200px;
+  width: 160px;
 }
 #header nav .upload-btn {
   background-color: #766CEB;
@@ -9952,6 +9957,11 @@ body {
     margin: 10px auto;
   }
 }
+@media (min-width: 576px) and (max-width: 1400px) {
+  #header nav .upload-btn {
+    font-size: 14px;
+  }
+}
 #header nav .basic-details {
   display: flex;
   align-items: center;
@@ -9970,6 +9980,7 @@ body {
   border: none;
   width: 100%;
   color: #333333;
+  opacity: 0.6;
 }
 #header nav .basic-details .city-select:hover, #header nav .basic-details .medicine-search-box:hover {
   cursor: pointer;
@@ -9980,10 +9991,14 @@ body {
 }
 #header nav .basic-details .location-icon, #header nav .basic-details .search-icon {
   position: absolute;
-  right: 10px;
+  right: 0px;
 }
 #header nav .basic-details .city-select {
   position: relative;
+}
+#header nav .basic-details .medicine-search-box {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 #header nav .basic-details .medicine-search-box:focus {
   box-shadow: none;
@@ -10027,8 +10042,24 @@ body {
   }
 }
 
+.help-sec {
+  display: flex;
+  align-items: center;
+}
+.help-sec .help-option {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
 .text-grey {
   color: #333333;
+}
+
+.separator-grey {
+  border: 1px solid #BBBAC1;
+  height: 28px;
 }
 
 .separator-black {
@@ -10038,7 +10069,12 @@ body {
 
 .movable-header {
   background-color: #ffffff;
-  margin-top: 98px;
+  margin-top: 85px;
+  border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -ms-border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
 }
 .movable-header .separator-header-sec {
   border-bottom: 1px solid #DBDEDF;
@@ -10058,7 +10094,7 @@ body {
 }
 .movable-header .user-optionality {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 @media (max-width: 993px) {
@@ -10069,33 +10105,14 @@ body {
 .movable-header .options {
   display: flex;
   align-items: center;
-}
-.movable-header .options .option-bg {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.movable-header .options .option-bg.bg-1 {
-  background-color: #766CEB;
-}
-.movable-header .options .option-bg.bg-2 {
-  background-color: #00D9C6;
-}
-.movable-header .options .option-bg.bg-3 {
-  background-color: #E317CB;
-}
-.movable-header .options .option-bg.bg-4 {
-  background-color: #E3BC17;
+  margin: 0px 3px;
 }
 .movable-header .options .option-heading {
   color: #333333;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 18px;
   font-style: normal;
-  line-height: 22px;
+  line-height: 21px;
 }
 @media (max-width: 575px) {
   .movable-header .options .option-heading {
@@ -10108,7 +10125,7 @@ body {
   }
 }
 .movable-header .shadowing {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 16px rgba(51, 79, 109, 0.12);
 }
 
 .footer-section {
@@ -10187,10 +10204,14 @@ body {
   background: #766CEB;
   right: 15px;
   bottom: 15px;
-  border-radius: 10px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 .header-bottom-sec .special-medicine-box {
@@ -10199,7 +10220,6 @@ body {
   border-radius: 10px;
 }
 .header-bottom-sec .special-medicine-box .heading {
-  font-size: 24px;
   line-height: 28px;
 }
 .header-bottom-sec .special-medicine-box .heading .main-head {
@@ -10207,6 +10227,7 @@ body {
   text-transform: capitalize;
   font-style: normal;
   font-weight: 700;
+  font-size: 24px;
 }
 @media (min-width: 360px) {
   .header-bottom-sec .special-medicine-box .heading .main-head {
@@ -10214,12 +10235,14 @@ body {
   }
 }
 .header-bottom-sec .special-medicine-box .heading .see-more {
-  color: #333333;
+  font-size: 18px;
+  color: #343434;
 }
 .header-bottom-sec .special-medicine-box .specialities-option {
   width: 135px;
   text-align: center;
   margin: 10px 0px;
+  color: #343434;
 }
 .header-bottom-sec .special-medicine-box .specialities-option .specialities-pic {
   width: 80px;
@@ -10245,38 +10268,33 @@ body {
     margin: 14px 0px;
   }
 }
-.header-bottom-sec .usage-comfort-box {
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  background-color: #fff;
+.header-bottom-sec .usage-overall-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(51, 79, 109, 0.06);
+  border-radius: 4px;
+  padding: 24px 10px;
+}
+.header-bottom-sec .usage-overall-box .usage-box {
+  display: flex;
   align-items: center;
-  height: 150px;
-  position: relative;
 }
-.header-bottom-sec .usage-comfort-box .usagability-pic {
-  z-index: 1;
+.header-bottom-sec .usage-overall-box .usage-box .usagability-pic {
+  width: 50px;
 }
-@media (max-width: 1200px) {
-  .header-bottom-sec .usage-comfort-box {
-    margin: 10px 0px;
+.header-bottom-sec .usage-overall-box .usage-box .usage-name {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #343434;
+}
+@media (max-width: 1400px) {
+  .header-bottom-sec .usage-overall-box .usage-box .usage-name {
+    font-size: 18px;
   }
-}
-.header-bottom-sec .light-bg {
-  background-color: #766CEB;
-  opacity: 0.2;
-  border-radius: 0px 0px 10px 10px;
-  position: absolute;
-  top: 50%;
-  left: 0px;
-  width: 100%;
-  height: 50%;
-  z-index: 0;
-  -webkit-border-radius: 0px 0px 10px 10px;
-  -moz-border-radius: 0px 0px 10px 10px;
-  -ms-border-radius: 0px 0px 10px 10px;
-  -o-border-radius: 0px 0px 10px 10px;
 }
 @media (max-width: 1200px) {
   .header-bottom-sec .for-mobile-dev {
@@ -10299,7 +10317,7 @@ body {
   font-weight: 500;
   font-size: 35px;
   line-height: 41px;
-  color: #333333;
+  color: #343434;
   position: relative;
 }
 .health-concern-section .heading .heading-bottom-line, .chronic-disease-section .heading .heading-bottom-line, .why-med-sec .heading .heading-bottom-line, .assistance-program-sec .heading .heading-bottom-line, .imported-sec .heading .heading-bottom-line, .testimonial-section .heading .heading-bottom-line, .customer-review-section .heading .heading-bottom-line {
@@ -10316,10 +10334,24 @@ body {
   }
 }
 .health-concern-section .health-concern-slider .healthy-pics, .health-concern-section .chronic-disease-slider .healthy-pics, .chronic-disease-section .health-concern-slider .healthy-pics, .chronic-disease-section .chronic-disease-slider .healthy-pics, .why-med-sec .health-concern-slider .healthy-pics, .why-med-sec .chronic-disease-slider .healthy-pics, .assistance-program-sec .health-concern-slider .healthy-pics, .assistance-program-sec .chronic-disease-slider .healthy-pics, .imported-sec .health-concern-slider .healthy-pics, .imported-sec .chronic-disease-slider .healthy-pics, .testimonial-section .health-concern-slider .healthy-pics, .testimonial-section .chronic-disease-slider .healthy-pics, .customer-review-section .health-concern-slider .healthy-pics, .customer-review-section .chronic-disease-slider .healthy-pics {
-  background: #EBFCFB;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 10px;
+}
+.health-concern-section .health-concern-slider .healthy-pics.bg-1, .health-concern-section .health-concern-slider .healthy-pics .bg-6, .health-concern-section .chronic-disease-slider .healthy-pics.bg-1, .health-concern-section .chronic-disease-slider .healthy-pics .bg-6, .chronic-disease-section .health-concern-slider .healthy-pics.bg-1, .chronic-disease-section .health-concern-slider .healthy-pics .bg-6, .chronic-disease-section .chronic-disease-slider .healthy-pics.bg-1, .chronic-disease-section .chronic-disease-slider .healthy-pics .bg-6, .why-med-sec .health-concern-slider .healthy-pics.bg-1, .why-med-sec .health-concern-slider .healthy-pics .bg-6, .why-med-sec .chronic-disease-slider .healthy-pics.bg-1, .why-med-sec .chronic-disease-slider .healthy-pics .bg-6, .assistance-program-sec .health-concern-slider .healthy-pics.bg-1, .assistance-program-sec .health-concern-slider .healthy-pics .bg-6, .assistance-program-sec .chronic-disease-slider .healthy-pics.bg-1, .assistance-program-sec .chronic-disease-slider .healthy-pics .bg-6, .imported-sec .health-concern-slider .healthy-pics.bg-1, .imported-sec .health-concern-slider .healthy-pics .bg-6, .imported-sec .chronic-disease-slider .healthy-pics.bg-1, .imported-sec .chronic-disease-slider .healthy-pics .bg-6, .testimonial-section .health-concern-slider .healthy-pics.bg-1, .testimonial-section .health-concern-slider .healthy-pics .bg-6, .testimonial-section .chronic-disease-slider .healthy-pics.bg-1, .testimonial-section .chronic-disease-slider .healthy-pics .bg-6, .customer-review-section .health-concern-slider .healthy-pics.bg-1, .customer-review-section .health-concern-slider .healthy-pics .bg-6, .customer-review-section .chronic-disease-slider .healthy-pics.bg-1, .customer-review-section .chronic-disease-slider .healthy-pics .bg-6 {
+  background: #EBFCFB;
+}
+.health-concern-section .health-concern-slider .healthy-pics.bg-2, .health-concern-section .chronic-disease-slider .healthy-pics.bg-2, .chronic-disease-section .health-concern-slider .healthy-pics.bg-2, .chronic-disease-section .chronic-disease-slider .healthy-pics.bg-2, .why-med-sec .health-concern-slider .healthy-pics.bg-2, .why-med-sec .chronic-disease-slider .healthy-pics.bg-2, .assistance-program-sec .health-concern-slider .healthy-pics.bg-2, .assistance-program-sec .chronic-disease-slider .healthy-pics.bg-2, .imported-sec .health-concern-slider .healthy-pics.bg-2, .imported-sec .chronic-disease-slider .healthy-pics.bg-2, .testimonial-section .health-concern-slider .healthy-pics.bg-2, .testimonial-section .chronic-disease-slider .healthy-pics.bg-2, .customer-review-section .health-concern-slider .healthy-pics.bg-2, .customer-review-section .chronic-disease-slider .healthy-pics.bg-2 {
+  background: #F4F4FE;
+}
+.health-concern-section .health-concern-slider .healthy-pics.bg-3, .health-concern-section .chronic-disease-slider .healthy-pics.bg-3, .chronic-disease-section .health-concern-slider .healthy-pics.bg-3, .chronic-disease-section .chronic-disease-slider .healthy-pics.bg-3, .why-med-sec .health-concern-slider .healthy-pics.bg-3, .why-med-sec .chronic-disease-slider .healthy-pics.bg-3, .assistance-program-sec .health-concern-slider .healthy-pics.bg-3, .assistance-program-sec .chronic-disease-slider .healthy-pics.bg-3, .imported-sec .health-concern-slider .healthy-pics.bg-3, .imported-sec .chronic-disease-slider .healthy-pics.bg-3, .testimonial-section .health-concern-slider .healthy-pics.bg-3, .testimonial-section .chronic-disease-slider .healthy-pics.bg-3, .customer-review-section .health-concern-slider .healthy-pics.bg-3, .customer-review-section .chronic-disease-slider .healthy-pics.bg-3 {
+  background: #FFF2F2;
+}
+.health-concern-section .health-concern-slider .healthy-pics.bg-4, .health-concern-section .chronic-disease-slider .healthy-pics.bg-4, .chronic-disease-section .health-concern-slider .healthy-pics.bg-4, .chronic-disease-section .chronic-disease-slider .healthy-pics.bg-4, .why-med-sec .health-concern-slider .healthy-pics.bg-4, .why-med-sec .chronic-disease-slider .healthy-pics.bg-4, .assistance-program-sec .health-concern-slider .healthy-pics.bg-4, .assistance-program-sec .chronic-disease-slider .healthy-pics.bg-4, .imported-sec .health-concern-slider .healthy-pics.bg-4, .imported-sec .chronic-disease-slider .healthy-pics.bg-4, .testimonial-section .health-concern-slider .healthy-pics.bg-4, .testimonial-section .chronic-disease-slider .healthy-pics.bg-4, .customer-review-section .health-concern-slider .healthy-pics.bg-4, .customer-review-section .chronic-disease-slider .healthy-pics.bg-4 {
+  background: #FBEFC9;
+}
+.health-concern-section .health-concern-slider .healthy-pics.bg-5, .health-concern-section .chronic-disease-slider .healthy-pics.bg-5, .chronic-disease-section .health-concern-slider .healthy-pics.bg-5, .chronic-disease-section .chronic-disease-slider .healthy-pics.bg-5, .why-med-sec .health-concern-slider .healthy-pics.bg-5, .why-med-sec .chronic-disease-slider .healthy-pics.bg-5, .assistance-program-sec .health-concern-slider .healthy-pics.bg-5, .assistance-program-sec .chronic-disease-slider .healthy-pics.bg-5, .imported-sec .health-concern-slider .healthy-pics.bg-5, .imported-sec .chronic-disease-slider .healthy-pics.bg-5, .testimonial-section .health-concern-slider .healthy-pics.bg-5, .testimonial-section .chronic-disease-slider .healthy-pics.bg-5, .customer-review-section .health-concern-slider .healthy-pics.bg-5, .customer-review-section .chronic-disease-slider .healthy-pics.bg-5 {
+  background: #EFEFEF;
 }
 .health-concern-section .health-concern-slider .slick-slide, .health-concern-section .chronic-disease-slider .slick-slide, .chronic-disease-section .health-concern-slider .slick-slide, .chronic-disease-section .chronic-disease-slider .slick-slide, .why-med-sec .health-concern-slider .slick-slide, .why-med-sec .chronic-disease-slider .slick-slide, .assistance-program-sec .health-concern-slider .slick-slide, .assistance-program-sec .chronic-disease-slider .slick-slide, .imported-sec .health-concern-slider .slick-slide, .imported-sec .chronic-disease-slider .slick-slide, .testimonial-section .health-concern-slider .slick-slide, .testimonial-section .chronic-disease-slider .slick-slide, .customer-review-section .health-concern-slider .slick-slide, .customer-review-section .chronic-disease-slider .slick-slide {
   margin: 0px 10px;
@@ -10339,7 +10371,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: capitalize;
-  color: #333333;
+  color: #343434;
 }
 @media (max-width: 1400px) {
   .health-concern-section .health-concern-slider .affected-area, .health-concern-section .chronic-disease-slider .affected-area, .chronic-disease-section .health-concern-slider .affected-area, .chronic-disease-section .chronic-disease-slider .affected-area, .why-med-sec .health-concern-slider .affected-area, .why-med-sec .chronic-disease-slider .affected-area, .assistance-program-sec .health-concern-slider .affected-area, .assistance-program-sec .chronic-disease-slider .affected-area, .imported-sec .health-concern-slider .affected-area, .imported-sec .chronic-disease-slider .affected-area, .testimonial-section .health-concern-slider .affected-area, .testimonial-section .chronic-disease-slider .affected-area, .customer-review-section .health-concern-slider .affected-area, .customer-review-section .chronic-disease-slider .affected-area {
@@ -10351,7 +10383,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-transform: capitalize;
-  color: #00757E;
+  color: #766CEB;
 }
 .health-concern-section .health-concern-slider .shop-link:after, .health-concern-section .chronic-disease-slider .shop-link:after, .chronic-disease-section .health-concern-slider .shop-link:after, .chronic-disease-section .chronic-disease-slider .shop-link:after, .why-med-sec .health-concern-slider .shop-link:after, .why-med-sec .chronic-disease-slider .shop-link:after, .assistance-program-sec .health-concern-slider .shop-link:after, .assistance-program-sec .chronic-disease-slider .shop-link:after, .imported-sec .health-concern-slider .shop-link:after, .imported-sec .chronic-disease-slider .shop-link:after, .testimonial-section .health-concern-slider .shop-link:after, .testimonial-section .chronic-disease-slider .shop-link:after, .customer-review-section .health-concern-slider .shop-link:after, .customer-review-section .chronic-disease-slider .shop-link:after {
   content: ">";
@@ -10382,9 +10414,9 @@ body {
 }
 .health-concern-section .health-concern-slider .chronic-box, .health-concern-section .chronic-disease-slider .chronic-box, .chronic-disease-section .health-concern-slider .chronic-box, .chronic-disease-section .chronic-disease-slider .chronic-box, .why-med-sec .health-concern-slider .chronic-box, .why-med-sec .chronic-disease-slider .chronic-box, .assistance-program-sec .health-concern-slider .chronic-box, .assistance-program-sec .chronic-disease-slider .chronic-box, .imported-sec .health-concern-slider .chronic-box, .imported-sec .chronic-disease-slider .chronic-box, .testimonial-section .health-concern-slider .chronic-box, .testimonial-section .chronic-disease-slider .chronic-box, .customer-review-section .health-concern-slider .chronic-box, .customer-review-section .chronic-disease-slider .chronic-box {
   background: #fff;
-  border: 1px solid #727272;
+  border: 1px solid #D0D0D0;
   box-sizing: border-box;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 .health-concern-section .health-concern-slider .chronic-box .chronic-pics img, .health-concern-section .chronic-disease-slider .chronic-box .chronic-pics img, .chronic-disease-section .health-concern-slider .chronic-box .chronic-pics img, .chronic-disease-section .chronic-disease-slider .chronic-box .chronic-pics img, .why-med-sec .health-concern-slider .chronic-box .chronic-pics img, .why-med-sec .chronic-disease-slider .chronic-box .chronic-pics img, .assistance-program-sec .health-concern-slider .chronic-box .chronic-pics img, .assistance-program-sec .chronic-disease-slider .chronic-box .chronic-pics img, .imported-sec .health-concern-slider .chronic-box .chronic-pics img, .imported-sec .chronic-disease-slider .chronic-box .chronic-pics img, .testimonial-section .health-concern-slider .chronic-box .chronic-pics img, .testimonial-section .chronic-disease-slider .chronic-box .chronic-pics img, .customer-review-section .health-concern-slider .chronic-box .chronic-pics img, .customer-review-section .chronic-disease-slider .chronic-box .chronic-pics img {
@@ -10404,53 +10436,50 @@ body {
 .why-med-sec {
   background-color: #fff;
 }
-.why-med-sec .reasons {
+.why-med-sec .reason-box {
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #E6E6E6;
+  margin: 10px 0px;
 }
-.why-med-sec .reasons .reason-pic {
-  width: 180px;
+.why-med-sec .reason-box .reason-pic {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.why-med-sec .reasons .heading {
-  font-style: normal;
+.why-med-sec .reason-box .heading {
   font-weight: bold;
-  font-size: 26px;
-  color: #000000;
-}
-@media (max-width: 1400px) {
-  .why-med-sec .reasons .heading {
-    font-size: 20px;
-  }
-}
-.why-med-sec .reasons .reasonable {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 25px;
+  color: #333333;
+}
+.why-med-sec .reason-box .reasonable {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
   color: #5B4F4F;
 }
-@media (max-width: 1400px) {
-  .why-med-sec .reasons {
-    display: unset;
-  }
-  .why-med-sec .reasons .reason-pic {
-    width: 80px;
-  }
-  .why-med-sec .reasons .for-mobile-dev {
-    margin-left: unset !important;
+.why-med-sec .for-xl-dev {
+  justify-content: space-around;
+}
+@media (min-width: 1400px) {
+  .why-med-sec .for-xl-dev {
+    justify-content: space-between;
   }
 }
 
 .assistance-program-sec .program-desc, .assistance-program-sec .import-desc, .imported-sec .program-desc, .imported-sec .import-desc {
-  font-size: 22px;
-  line-height: 36px;
-  color: #000000;
-}
-@media (max-width: 1400px) {
-  .assistance-program-sec .program-desc, .assistance-program-sec .import-desc, .imported-sec .program-desc, .imported-sec .import-desc {
-    font-size: 18px;
-  }
+  font-size: 18px;
+  line-height: 30px;
+  color: #151414;
 }
 .assistance-program-sec .register-program, .assistance-program-sec .import, .imported-sec .register-program, .imported-sec .import {
   background-color: #766CEB;
@@ -10460,7 +10489,7 @@ body {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
   color: #fff;
@@ -10478,33 +10507,35 @@ body {
   }
 }
 .assistance-program-sec .assistance-box, .imported-sec .assistance-box {
-  background: #fff;
-  box-shadow: 0px 4px 17px rgba(173, 173, 173, 0.46);
-  border-radius: 30px;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  width: 300px;
+  height: 290px;
+  margin: 10px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  height: 150px;
-  width: 150px;
-  margin: auto;
+  flex-direction: column;
+  padding: 5px;
 }
 .assistance-program-sec .register-intro, .assistance-program-sec .import-reason, .imported-sec .register-intro, .imported-sec .import-reason {
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 41px;
-  color: #000000;
-}
-@media (max-width: 1400px) {
-  .assistance-program-sec .register-intro, .assistance-program-sec .import-reason, .imported-sec .register-intro, .imported-sec .import-reason {
-    font-size: 18px;
-  }
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
 }
 
+.imported-sec .import-box {
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0px;
+}
 .imported-sec .import-round {
   display: flex;
   flex-direction: column;
@@ -10535,24 +10566,22 @@ body {
   width: 60px;
 }
 
+.about-section {
+  background-color: #fff;
+}
 .about-section .logo-pic {
   width: 180px;
 }
 .about-section .company-desc {
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 36px;
-  color: #151414;
-}
-@media (max-width: 1400px) {
-  .about-section .company-desc {
-    font-size: 18px;
-  }
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
 }
 
 .our-services {
-  background-color: #fff;
+  background-color: transparent;
 }
 .our-services .service {
   display: flex;
@@ -10576,16 +10605,16 @@ body {
 .our-services .service .count {
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
   line-height: 34px;
-  color: #766CEB;
+  font-size: 42px;
+  color: #3F5695;
 }
 .our-services .service .count-desc {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 35px;
-  color: #000000;
+  color: #333333;
 }
 
 .testimonial-section .testimonial-slider .testimonial-box {
@@ -10602,7 +10631,7 @@ body {
 .testimonial-section .testimonial-slider .testimonial-box .client-pic {
   width: 100px;
   height: 100px;
-  position: relative;
+  position: absolute;
 }
 .testimonial-section .testimonial-slider .testimonial-box .client-pic img {
   height: 100%;
@@ -10624,10 +10653,12 @@ body {
 }
 .testimonial-section .testimonial-slider .testimonial-box .client-name {
   font-weight: bold;
-  font-size: 26px;
-  line-height: 34px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
   text-transform: capitalize;
-  color: #424242;
+  margin-left: 90px;
+  margin-bottom: 0;
 }
 @media (max-width: 1400px) {
   .testimonial-section .testimonial-slider .testimonial-box .client-name {
@@ -10639,14 +10670,17 @@ body {
   font-size: 16px;
   line-height: 22px;
   text-transform: lowercase;
-  color: #646464;
+  color: #666666;
+  margin-left: 90px;
+  margin-bottom: 24px;
+  word-wrap: anywhere;
 }
 .testimonial-section .testimonial-slider .testimonial-box .client-review {
   font-weight: normal;
-  font-size: 25px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #666666;
   text-transform: uppercase;
-  color: #646464;
 }
 @media (max-width: 1400px) {
   .testimonial-section .testimonial-slider .testimonial-box .client-review {
@@ -10677,8 +10711,11 @@ body {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
+.customer-review-section .customer-review-slider .customer-box .fa-star {
+  margin: 0 2px;
+}
 .customer-review-section .customer-review-slider .customer-box .fa-star.checked {
-  color: #FFFF8D;
+  color: #FDD835;
 }
 .customer-review-section .customer-review-slider .customer-box .customer-name {
   font-weight: bold;
@@ -10694,16 +10731,14 @@ body {
 .customer-review-section .customer-review-slider .customer-box .customer-mail-id {
   font-size: 16px;
   line-height: 22px;
+  color: #666666;
+  margin-bottom: 0;
 }
 .customer-review-section .customer-review-slider .customer-box .customer-review {
-  font-size: 25px;
-  line-height: 34px;
-  color: #646464;
-}
-@media (max-width: 1400px) {
-  .customer-review-section .customer-review-slider .customer-box .customer-review {
-    font-size: 16px;
-  }
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: lowercase;
+  color: #666666;
 }
 
 /*# sourceMappingURL=app.css.map */

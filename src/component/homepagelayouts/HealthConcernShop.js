@@ -56,7 +56,7 @@ class HealthConcernShop extends Component {
                         <div className='health-concern-slider mt-5'>
                             <Slider {...settings}>
                                 <div>
-                                    <div className='healthy-pics'>
+                                    <div className='healthy-pics bg-1'>
                                         <img
                                             src={ EyeCare }
                                             className="d-inline-block align-top w-100"
@@ -74,7 +74,7 @@ class HealthConcernShop extends Component {
                                 </div>  
 
                                 <div>
-                                    <div className='healthy-pics'>
+                                    <div className='healthy-pics bg-2'>
                                         <img
                                             src={ KidneyCare }
                                             className="d-inline-block align-top w-100"
@@ -91,7 +91,7 @@ class HealthConcernShop extends Component {
                                     </div>
                                 </div>                        
                                 <div>
-                                    <div className='healthy-pics'>
+                                    <div className='healthy-pics bg-3'>
                                         <img
                                             src={ Smoking }
                                             className="d-inline-block align-top w-100"
@@ -108,7 +108,7 @@ class HealthConcernShop extends Component {
                                     </div>
                                 </div>                        
                                 <div>
-                                    <div className='healthy-pics'>
+                                    <div className='healthy-pics bg-4'>
                                         <img
                                             src={ StomachCare }
                                             className="d-inline-block align-top w-100"
@@ -126,7 +126,7 @@ class HealthConcernShop extends Component {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='healthy-pics'>
+                                    <div className='healthy-pics bg-5'>
                                         <img
                                             src={ Smoking }
                                             className="d-inline-block align-top w-100"
@@ -144,7 +144,7 @@ class HealthConcernShop extends Component {
                                     </div>
                                 </div>                        
                                 <div>
-                                    <div className='healthy-pics'>
+                                    <div className='healthy-pics bg-6'>
                                         <img
                                             src={ StomachCare }
                                             className="d-inline-block align-top w-100"

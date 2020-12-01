@@ -8,7 +8,7 @@ function Testimonial() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         accessibility : true,
         arrows : false,
@@ -17,7 +17,7 @@ function Testimonial() {
         adaptiveHeight : true,
         responsive: [
             {
-              breakpoint: 1024,
+              breakpoint: 1440,
               settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
@@ -60,7 +60,7 @@ function Testimonial() {
                                             alt="slider"
                                         />
                                     </div>
-                                    <div className='px-3'>
+                                    <div className='px-3 py-2'>
                                         <p className='client-name'>Jay Shahjahan</p>
                                         <p className='client-mail-id'>shahjahan@gmail.com</p>
                                         <p className='client-review'>
@@ -78,7 +78,7 @@ function Testimonial() {
                                             alt="slider"
                                         />
                                     </div>
-                                    <div className='px-3'>
+                                    <div className='px-3 py-2'>
                                         <p className='client-name'>Jay Shahjahan</p>
                                         <p className='client-mail-id'>shahjahan@gmail.com</p>
                                         <p className='client-review'>
@@ -96,7 +96,7 @@ function Testimonial() {
                                             alt="slider"
                                         />
                                     </div>
-                                    <div className='px-3'>
+                                    <div className='px-3 py-2'>
                                         <p className='client-name'>Jay Shahjahan</p>
                                         <p className='client-mail-id'>shahjahan@gmail.com</p>
                                         <p className='client-review'>
@@ -114,7 +114,7 @@ function Testimonial() {
                                             alt="slider"
                                         />
                                     </div>
-                                    <div className='px-3'>
+                                    <div className='px-3 py-2'>
                                         <p className='client-name'>Jay Shahjahan</p>
                                         <p className='client-mail-id'>shahjahan@gmail.com</p>
                                         <p className='client-review'>
@@ -132,7 +132,7 @@ function Testimonial() {
                                             alt="slider"
                                         />
                                     </div>
-                                    <div className='px-3'>
+                                    <div className='px-3 py-2'>
                                         <p className='client-name'>Jay Shahjahan</p>
                                         <p className='client-mail-id'>shahjahan@gmail.com</p>
                                         <p className='client-review'>

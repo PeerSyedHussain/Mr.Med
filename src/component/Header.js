@@ -12,6 +12,7 @@ import Headset from './../assets/images/icons/headset.png'
 import Whatsapp from './../assets/images/icons/whatsapp.png'
 import UserImg from './../assets/images/icons/user.png';
 import Cart from './../assets/images/icons/cart.png'
+import { Switch,Route,Link } from "react-router-dom"
 class Header extends Component {
   
     render() {
@@ -19,16 +20,16 @@ class Header extends Component {
             <>
                 <section id='header'>
                     <Navbar className='container' bg="white" expand="lg">
-                        <Navbar.Brand href="#home">
+                        <Link to='/' className='navbar-brand'>
                             <img
                                 src={logo}
                                 className="d-inline-block align-top logo-img"
                                 alt="Mr Med Logo"
                             />
-                        </Navbar.Brand>
+                        </Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <div className='col-md-8 basic-details'>
+                            <div className='col-md-7 basic-details'>
                                 <Form className='col-md-4'>
                                     <img
                                         src={Mappin}
@@ -36,20 +37,20 @@ class Header extends Component {
                                         alt="Map pin"
                                     />
                                     <select className='city-select'>
-                                        <option value=''>select your city</option>
+                                        <option value='' disabled selected>select your city</option>
                                         <option value='choco'>Choco</option>
                                         <option value='choco1'>Choco1</option>
                                         <option value='choco2'>Choco2</option>
                                         <option value='choco3'>Choco3</option>
                                         <option value='choco4'>Choco4</option>
                                     </select>
-                                    <img
+                                    {/* <img
                                         src={location}
                                         className="d-inline-block align-top location-icon"
                                         alt="location"
-                                    />
+                                    /> */}
                                 </Form>
-                                <span className='separator-black'></span>
+                                <span className='separator-grey'></span>
                                 <Form inline className='col-md-8'>
                                     <FormControl type="text" placeholder="Search for medicines and health products" className="mr-sm-2 medicine-search-box" />
                                     <img
@@ -59,39 +60,98 @@ class Header extends Component {
                                     />
                                 </Form>
                             </div>
-                            <div className='col-md-4 pr-0'>
-                                <Button className='upload-btn ml-auto'>
-                                    Upload Prescription
-                                </Button>
+                            <div className='col-md-5 pr-0'>
+                                <div className='d-flex align-items-center justify-content-around help-sec'>
+                                    <div className='mx-2 for-xs-position-login'>
+                                        <p className='mb-0 text-grey help-option'>
+                                            <img
+                                                src={ UserImg }
+                                                className="d-inline-block align-top mx-2"
+                                                alt="user-img"
+                                            />
+                                            Login / Sign up
+                                        </p>
+                                    </div>
+                                    <span className='separator-black'></span>
+                                    <div className='ml-2 for-xs-position-cart'>
+                                        <p className='mb-0 text-grey help-option'>
+                                            <img
+                                                src={ Cart }
+                                                className="d-inline-block align-top mx-2"
+                                                alt="cart"
+                                            />
+                                            Cart
+                                        </p>
+                                    </div>
+                                    <Button className='upload-btn '>
+                                        Upload Prescription
+                                    </Button>
+                                </div>                                
+                               
                             </div>        
                         </Navbar.Collapse>
                     </Navbar>
                 </section>
                 <section className='movable-header'>
-                    <div className='separator-header-sec py-2'>
+                    <div className='shadowing'>
                         <div className='container'>
-                            <div className='row justify-content-between align-items-center'>
-                                <div className='row'>
-                                        <div>
-                                            <p className='mb-0 text-grey'>
-                                                EN
-                                                <i className="fa fa-angle-down mx-1"></i>
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <p className='mb-0 text-grey'>
+                            <div className='row align-items-center'>
+                                <div className='col-md-7'>
+                                    <div className='user-optionality py-3'>
+                                        <div className='options'>
+                                            <div className='option-bg bg-1 mr-2'>
                                                 <img
-                                                    src={ Headset }
-                                                    className="d-inline-block align-top mx-2"
-                                                    alt="headset"
+                                                    src={ wellness }
+                                                    className="d-inline-block align-top"
+                                                    alt="Map pin"
                                                 />
-                                                Need Help ?                                               
-                                            </p>
+                                            </div>
+                                            <div>
+                                                <p className='mb-0 option-heading'>Wellness</p>
+                                            </div>
                                         </div>
+                                        <div className='options'>
+                                            <div className='option-bg bg-2 mr-2'>
+                                                <img
+                                                    src={ spec_medicine }
+                                                    className="d-inline-block align-top"
+                                                    alt="Map pin"
+                                                />
+                                            </div>
+                                            <div>
+                                                <p className='mb-0 option-heading'>Speciality Medicines</p>
+                                            </div>
+                                        </div>
+                                        <div className='options'>
+                                            <div className='option-bg bg-3 mr-2'>
+                                                <img
+                                                    src={ patient_asst }
+                                                    className="d-inline-block align-top"
+                                                    alt="Map pin"
+                                                />
+                                            </div>
+                                            <div>
+                                                <p className='mb-0 option-heading'>Patient Assistance Programme</p>
+                                            </div>
+                                        </div>
+                                        <div className='options'>
+                                            <div className='option-bg bg-4 mr-2'>
+                                                <img
+                                                    src={ impo_medi_ }
+                                                    className="d-inline-block align-top"
+                                                    alt="Map pin"
+                                                />
+                                            </div>
+                                            <div>
+                                                <p className='mb-0 option-heading'>Imported Medicines</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className='row for-small-mobile-dev'>
-                                        <div className='mr-2'>
-                                            <p className='mb-0 text-grey d-flex align-items-center'>
+                                <div className='col-md-5'>
+                                    <div className='help-sec'>
+                                        <div className=''>
+                                            <p className='mb-0 text-grey d-flex align-items-center help-option'>
                                                 <img
                                                     src={ Whatsapp }
                                                     className="d-inline-block align-top mx-2"
@@ -100,87 +160,41 @@ class Header extends Component {
                                                 +91 9090909090
                                             </p>
                                         </div>
-                                        <span className='separator-black'></span>
-                                        <div className='mx-2 for-xs-position-login'>
-                                            <p className='mb-0 text-grey'>
+                                        <span className='separator-black mx-2'></span>
+                                        <div>
+                                            <p className='mb-0 text-grey help-option'>
                                                 <img
-                                                    src={ UserImg }
+                                                    src={ Headset }
                                                     className="d-inline-block align-top mx-2"
-                                                    alt="user-img"
+                                                    alt="headset"
                                                 />
-                                                Login / Sign up
+                                                Need Help ?                                               
                                             </p>
                                         </div>
-                                        <span className='separator-black'></span>
-                                        <div className='ml-2 for-xs-position-cart'>
-                                            <p className='mb-0 text-grey'>
-                                                <img
-                                                    src={ Cart }
-                                                    className="d-inline-block align-top mx-2"
-                                                    alt="cart"
-                                                />
-                                                Cart
+                                        <div className='ml-auto'>
+                                            <p className='mb-0 text-grey help-option'>
+                                                EN
+                                                <i className="fa fa-angle-down mx-1"></i>
                                             </p>
                                         </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='shadowing'>
-                        <div className='container'>
-                            <div className='user-optionality py-3'>
-                                <div className='options'>
-                                    <div className='option-bg bg-1 mr-2'>
-                                        <img
-                                            src={ wellness }
-                                            className="d-inline-block align-top"
-                                            alt="Map pin"
-                                        />
-                                    </div>
-                                    <div>
-                                        <p className='mb-0 option-heading'>Wellness</p>
-                                    </div>
-                                </div>
-                                <div className='options'>
-                                    <div className='option-bg bg-2 mr-2'>
-                                        <img
-                                            src={ spec_medicine }
-                                            className="d-inline-block align-top"
-                                            alt="Map pin"
-                                        />
-                                    </div>
-                                    <div>
-                                        <p className='mb-0 option-heading'>Speciality Medicines</p>
-                                    </div>
-                                </div>
-                                <div className='options'>
-                                    <div className='option-bg bg-3 mr-2'>
-                                        <img
-                                            src={ patient_asst }
-                                            className="d-inline-block align-top"
-                                            alt="Map pin"
-                                        />
-                                    </div>
-                                    <div>
-                                        <p className='mb-0 option-heading'>Patient Assistance Programme</p>
-                                    </div>
-                                </div>
-                                <div className='options'>
-                                    <div className='option-bg bg-4 mr-2'>
-                                        <img
-                                            src={ impo_medi_ }
-                                            className="d-inline-block align-top"
-                                            alt="Map pin"
-                                        />
-                                    </div>
-                                    <div>
-                                        <p className='mb-0 option-heading'>Imported Medicines</p>
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div> 
                     </div>                  
                 </section>
+                {/* <Switch>
+                    <Route exact path="/">
+                        <Footer/>
+                    </Route>
+                    <Route path="/about">
+                        <About />
+                    </Route>
+                    <Route path="/dashboard">
+                        <Dashboard />
+                    </Route>
+                </Switch> */}
             </>
         );
     }

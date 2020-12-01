@@ -12,7 +12,7 @@ function Imported() {
                 <div className='container'>
                     <div className='row'>
                         <h5 className='heading'>
-                            Imported Medicine
+                            Imported Medicines
                             <span className='heading-bottom-line'></span>
                         </h5>
                     </div> 
@@ -28,8 +28,56 @@ function Imported() {
                             Import
                         </Button>
                     </div>
-                    <div className='row align-items-start mt-4'>
-                        <div className='col-md-3 import-round'>
+                    <div className='row align-items-start mt-4 justify-content-between'>
+                        <div className='import-box'>
+                            <div className='import-pic'>
+                                <img
+                                    src={ Register }
+                                    className="d-inline-block align-top w-100"
+                                    alt="register"
+                                />
+                            </div> 
+                            <p className='import-reason text-center mt-3'> 
+                                Register with Mr. Med
+                            </p>
+                        </div>
+                        <div className='import-box'>
+                            <div className='import-pic'>
+                                <img
+                                    src={ Search }
+                                    className="d-inline-block align-top w-100"
+                                    alt="search"
+                                />
+                            </div> 
+                            <p className='import-reason text-center mt-3'>
+                                Request for imported medicine
+                            </p>
+                        </div>
+                        <div className='import-box'>
+                            <div className='import-pic'>
+                                <img
+                                    src={ Contact }
+                                    className="d-inline-block align-top w-100"
+                                    alt="contact"
+                                />
+                            </div>  
+                            <p className='import-reason text-center mt-3'>
+                                We will reach out to you with price and delivery dates
+                            </p>
+                        </div>
+                        <div className='import-box'>
+                            <div className='import-pic'>
+                                <img
+                                    src={ Deliver }
+                                    className="d-inline-block align-top w-100"
+                                    alt="deliver"
+                                />
+                            </div>  
+                            <p className='import-reason text-center mt-3'>
+                                Genuine medicine door delivered with all necessary legal documents
+                            </p>
+                        </div>
+                        {/* <div className='col-md-3 import-round'>
                             <div className='import-bg bg-1'>
                                 <div className='import-pic'>
                                     <img
@@ -84,7 +132,7 @@ function Imported() {
                             <p className='import-reason text-center mt-3'>
                                 Genuine medicine door delivered with all necessary legal documents
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>   
             </div> 

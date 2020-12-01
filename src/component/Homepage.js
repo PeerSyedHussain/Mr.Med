@@ -19,16 +19,19 @@ class Homepage extends Component {
             <>
                 <div className='header-bottom-sec py-4'>
                     <div className='row'>
-                        <div className='col-md-5'>
+                        <div className='col-md-4'>
                             <div className='special-medicine-box'>
                                 <div className='row justify-content-between align-items-center p-2 heading'>
                                     <h5 className='main-head'>Speciality Medicines</h5>
 
                                     <div>
-                                        <p className='mb-0 see-more'>See all</p>
+                                        <p className='mb-0 see-more'>
+                                            See all
+                                            <i class="fa fa-arrow-right mx-2"></i>
+                                        </p>
                                     </div>
                                 </div>
-                                <div className='row px-2 py-3 for-mobile-dev'>
+                                <div className='row px-2 py-3 justify-content-center for-mobile-dev'>
                                    <div className='specialities-option'>
                                         <div className='specialities-pic'>
                                             <img
@@ -60,6 +63,67 @@ class Homepage extends Component {
                                         <p>Liver transplant</p>
                                    </div>
                                    <div className='specialities-option'>
+                                        <div className='specialities-pic'>
+                                            <img
+                                                src={ stomach }
+                                                className="d-inline-block align-top"
+                                                alt="Map pin"
+                                            />
+                                        </div>
+                                        <p>Medical Gastroenterology</p>
+                                   </div>
+                                   <div className='specialities-option'>
+                                        <div className='specialities-pic'>
+                                            <img
+                                                src={ surgical_stomach }
+                                                className="d-inline-block align-top"
+                                                alt="Map pin"
+                                            />
+                                        </div>
+                                        <p>Surgical Gastroenterology</p>
+                                   </div>
+                                   <div className='specialities-option'>
+                                        <div className='specialities-pic'>
+                                            <img
+                                                src={ liver }
+                                                className="d-inline-block align-top"
+                                                alt="Map pin"
+                                            />
+                                        </div>
+                                        <p>Liver transplant</p>
+                                   </div>
+                                   <div className='specialities-option'>
+                                        <div className='specialities-pic'>
+                                            <img
+                                                src={ stomach }
+                                                className="d-inline-block align-top"
+                                                alt="Map pin"
+                                            />
+                                        </div>
+                                        <p>Medical Gastroenterology</p>
+                                   </div>
+                                   <div className='specialities-option'>
+                                        <div className='specialities-pic'>
+                                            <img
+                                                src={ surgical_stomach }
+                                                className="d-inline-block align-top"
+                                                alt="Map pin"
+                                            />
+                                        </div>
+                                        <p>Surgical Gastroenterology</p>
+                                   </div>
+                                   <div className='specialities-option'>
+                                        <div className='specialities-pic'>
+                                            <img
+                                                src={ liver }
+                                                className="d-inline-block align-top"
+                                                alt="Map pin"
+                                            />
+                                        </div>
+                                        <p>Liver transplant</p>
+                                   </div>
+                                   
+                                   {/* <div className='specialities-option'>
                                         <div className='specialities-pic'>
                                             <img
                                                 src={ bronchus }
@@ -118,16 +182,57 @@ class Homepage extends Component {
                                             />
                                         </div>
                                         <p>Orthopaedics</p>
-                                   </div>
+                                   </div> */}
 
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-7'>
+                        <div className='col-md-8'>
                             <OrderingSection />
 
                             <div className='row mt-4 for-md-dev'>
-                                <div className='col-md-4 adjust-width'>
+                                <div className='col-md-12'>
+                                    <div className='usage-overall-box'>
+                                        <div className='usage-box'>
+                                            <div className='usagability-pic mx-2'>
+                                                <img
+                                                    src={ accessibilty }
+                                                    className="d-inline-block align-top w-100"
+                                                    alt="accessibility"
+                                                />
+                                            </div> 
+                                            <div>
+                                                <p className='mb-0 usage-name'>Accessibility</p>    
+                                            </div> 
+                                        </div>
+                                        <div className='usage-box'>
+                                            <div className='usagability-pic mx-2'>
+                                                <img
+                                                    src={ affordability }
+                                                    className="d-inline-block align-top w-100"
+                                                    alt="affordability"
+                                                />
+                                            </div> 
+                                            <div>
+                                                <p className='mb-0 usage-name'>Affordability</p>    
+                                            </div>     
+                                        </div>    
+                                        <div className='usage-box'>
+                                            <div className='usagability-pic mx-2'>
+                                                <img
+                                                    src={ reliability }
+                                                    className="d-inline-block align-top w-100"
+                                                    alt="reliability"
+                                                />
+                                            </div> 
+                                            <div>
+                                                <p className='mb-0 usage-name'>Reliability</p>    
+                                            </div> 
+                                        </div>                                    
+                                    </div>
+                                </div>
+                                
+                                {/* <div className='col-md-4 adjust-width'>
                                     <div className='usage-comfort-box p-3'>
                                         <div className='usagability-pic mx-2'>
                                             <img
@@ -171,7 +276,7 @@ class Homepage extends Component {
                                         </div> 
                                         <div className='light-bg'></div>                                      
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>    

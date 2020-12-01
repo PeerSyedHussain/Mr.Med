@@ -34,7 +34,67 @@ function AssistanceProgram() {
                     </div>
 
                     <div className='row justify-content-around mt-3'>
-                        <div className='col-md-4'>
+                        <div className='assistance-box'>
+                            <div className='assistance-img'>
+                                <img
+                                    src={ Register }
+                                    className="d-inline-block align-top w-100"
+                                    alt="register"
+                                />
+                            </div>
+                            <p className='register-intro mt-2 mb-0 text-center'>
+                                Register with Mr.Med
+                            </p>
+                        </div>
+                        <div className='assistance-box'>
+                            <div className='assistance-img'>
+                                <img
+                                    src={ Search }
+                                    className="d-inline-block align-top w-100"
+                                    alt="search"
+                                />
+                            </div>
+                            <p className='register-intro mt-2 mb-0 text-center'>
+                                Search for your prescription medicine
+                            </p>
+                        </div>
+                        <div className='assistance-box'>
+                            <div className='assistance-img'>
+                                <img
+                                    src={ Request }
+                                    className="d-inline-block align-top w-100"
+                                    alt="request"
+                                />
+                            </div>
+                            <p className='register-intro mt-2 mb-0 text-center'> 
+                                Request enrollment in PAP for your prescription medicine 
+                            </p>
+                        </div>
+                        <div className='assistance-box'>
+                            <div className='assistance-img'>
+                                <img
+                                    src={ Contact }
+                                    className="d-inline-block align-top w-100"
+                                    alt="contact"
+                                />
+                            </div>
+                            <p className='register-intro mt-2 mb-0 text-center'>
+                                We will reach out to you with process details and documentation required for PAP registration
+                            </p>
+                        </div>
+                        <div className='assistance-box'>
+                            <div className='assistance-img'>
+                                <img
+                                    src={ Delivery }
+                                    className="d-inline-block align-top w-100"
+                                    alt="delivery"
+                                />
+                            </div>
+                            <p className='register-intro mt-2 mb-0 text-center'>
+                                Door delivery of PAP medicine 
+                            </p>
+                        </div>
+                        {/* <div className='col-md-4'>
                             <div className='assistance-box'>
                                 <img
                                     src={ Register }
@@ -93,7 +153,7 @@ function AssistanceProgram() {
                             <p className='register-intro mt-2 mb-0 text-center'>
                                 Door delivery of PAP medicine 
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>    
             </div>   
