@@ -42,7 +42,7 @@ function Testimonial() {
     return (
         <>
             <div className='testimonial-section my-2 py-3'>
-                <div className='container'>
+                <div className='container for-xl-device'>
                     <div className='row'>
                         <h5 className='heading'>
                             Testimonials

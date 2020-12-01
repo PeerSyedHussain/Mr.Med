@@ -9,7 +9,7 @@ function WhySection() {
     return (
         <>
             <div className='why-med-sec my-2 py-4'>
-                <div className='container'>
+                <div className='container for-xl-device'>
                     <div className='row'>
                         <h5 className='heading'>
                             Why MrMed?

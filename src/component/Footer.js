@@ -9,8 +9,8 @@ function Footer() {
     return (
         <>
             <div className='footer-section pt-5'>
-                <div className='container'>
-                    <div className='row align-items-center'>
+                <div className='container for-xl-device'>
+                    <div className='row'>
                         <div className='col-md-4'>
                             <div>
                                 <div className='logo-img'>

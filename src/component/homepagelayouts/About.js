@@ -6,7 +6,7 @@ function About() {
     return (
         <>
             <div className='about-section py-4'>
-                <div className='container'>
+                <div className='container for-xl-device'>
                     <div className='row'>
                         <div className='logo-pic'>
                             <img

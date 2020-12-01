@@ -19,7 +19,7 @@ class Header extends Component {
         return (
             <>
                 <section id='header'>
-                    <Navbar className='container' bg="white" expand="lg">
+                    <Navbar className='container for-xl-device' bg="white" expand="lg">
                         <Link to='/' className='navbar-brand'>
                             <img
                                 src={logo}
@@ -94,7 +94,7 @@ class Header extends Component {
                 </section>
                 <section className='movable-header'>
                     <div className='shadowing'>
-                        <div className='container'>
+                        <div className='container for-xl-device'>
                             <div className='row align-items-center'>
                                 <div className='col-md-7'>
                                     <div className='user-optionality py-3'>

@@ -10,7 +10,7 @@ function AssistanceProgram() {
     return (
         <>
             <div className='assistance-program-sec my-2 py-4'>
-                <div className='container'>
+                <div className='container for-xl-device'>
                     <div className='row'>
                         <h5 className='heading'>
                             Patient Assistance Program

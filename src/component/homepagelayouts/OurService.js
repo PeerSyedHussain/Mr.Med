@@ -7,7 +7,7 @@ function OurService() {
     return (
         <>
             <div className='our-services py-5'>
-                <div className='container'>
+                <div className='container for-xl-device'>
                     <div className='row justify-content-between align-items-center'>
                         <div className='col-md-4'>
                             <div className='service'>

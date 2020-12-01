@@ -17,7 +17,7 @@ class App extends Component {
         return (
             <>
                 <Header/>
-                <section className='container'>
+                <section className='container for-xl-device'>
                     <Homepage/>
                 </section>
                 <section>

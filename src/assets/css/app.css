@@ -10008,7 +10008,7 @@ body {
     display: block;
     padding: 10px 0px 10px 14px;
   }
-  #header nav .basic-details .separator-black {
+  #header nav .basic-details .separator-grey {
     display: none;
   }
   #header nav .basic-details .form-inline {
@@ -10041,6 +10041,12 @@ body {
     right: 1px;
   }
 }
+@media (max-width: 769px) {
+  #header .help-sec {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .help-sec {
   display: flex;
@@ -10051,6 +10057,17 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
+}
+@media (max-width: 769px) {
+  .help-sec {
+    display: block;
+  }
+  .help-sec .help-option {
+    margin: 10px 0px;
+  }
+  .help-sec .separator-black {
+    display: none;
+  }
 }
 
 .text-grey {
@@ -10214,6 +10231,13 @@ body {
   -o-border-radius: 50px;
 }
 
+@media (min-width: 1440px) {
+  .container.for-xl-device {
+    max-width: unset;
+    width: 90%;
+  }
+}
+
 .header-bottom-sec .special-medicine-box {
   background: #fff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
@@ -10296,6 +10320,15 @@ body {
     font-size: 18px;
   }
 }
+@media (max-width: 769px) {
+  .header-bottom-sec .usage-overall-box {
+    display: block;
+  }
+  .header-bottom-sec .usage-overall-box .usage-box {
+    margin: 20px 0px;
+    justify-content: center;
+  }
+}
 @media (max-width: 1200px) {
   .header-bottom-sec .for-mobile-dev {
     justify-content: center;
@@ -10361,7 +10394,7 @@ body {
     margin: unset;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 3840px) {
   .health-concern-section .health-concern-slider .for-mobile-dev, .health-concern-section .chronic-disease-slider .for-mobile-dev, .chronic-disease-section .health-concern-slider .for-mobile-dev, .chronic-disease-section .chronic-disease-slider .for-mobile-dev, .why-med-sec .health-concern-slider .for-mobile-dev, .why-med-sec .chronic-disease-slider .for-mobile-dev, .assistance-program-sec .health-concern-slider .for-mobile-dev, .assistance-program-sec .chronic-disease-slider .for-mobile-dev, .imported-sec .health-concern-slider .for-mobile-dev, .imported-sec .chronic-disease-slider .for-mobile-dev, .testimonial-section .health-concern-slider .for-mobile-dev, .testimonial-section .chronic-disease-slider .for-mobile-dev, .customer-review-section .health-concern-slider .for-mobile-dev, .customer-review-section .chronic-disease-slider .for-mobile-dev {
     margin: 10px 0px;
   }
@@ -10426,10 +10459,10 @@ body {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
   .health-concern-section .for-xl-device, .chronic-disease-section .for-xl-device, .why-med-sec .for-xl-device, .assistance-program-sec .for-xl-device, .imported-sec .for-xl-device, .testimonial-section .for-xl-device, .customer-review-section .for-xl-device {
     max-width: unset;
-    width: 80%;
+    width: 90%;
   }
 }
 

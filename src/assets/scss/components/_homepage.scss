@@ -82,6 +82,13 @@
                 }
             }
         }
+        @media(max-width:769px){
+            display: block;
+            .usage-box{
+                margin:20px 0px;
+                justify-content: center;
+            }
+        }
     }
     // .usage-comfort-box{
     //     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
@@ -178,7 +185,7 @@
             }
         }
         .for-mobile-dev{
-            @media(max-width: 1400px){
+            @media(max-width: 3840px){
                 margin : 10px 0px;
             }
         }
@@ -245,10 +252,9 @@
         }
     }
     .for-xl-device{
-        @media(min-width: 1920px){
+        @media(min-width: 1440px){
             max-width: unset;
-            width: 80%;
-
+            width: 90%;
         }
     }
 }
